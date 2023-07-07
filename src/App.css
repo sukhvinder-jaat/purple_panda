@@ -1,3 +1,143 @@
 @import url(../src/top.css);
 @import url(../src/middle.css);
 @import url(../src/bottom.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Philosopher:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
+
+/* font-family*/
+.ff_Montserrat {
+  font-family: "Montserrat" !important;
+}
+.ff_Philosopher {
+  font-family: "Philosopher" !important;
+}
+:root {
+  --fs-4xl: 80px;
+  --fs-3xl: 48px;
+  --fs-2xl: 32px;
+  --fs-xl: 24px;
+  --fs-lg: 20px;
+  --fs-md: 16px;
+  --fs-sm: 14px;
+  --fs-xsm: 12px;
+  /* color */
+  --color-clr_white: #ffffff !important;
+}
+.clr_white {
+  color: var(--color-clr_white) !important;
+}
+
+/* font_size */
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+
+.fs_md {
+  font-size: var(--fs-md);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+/* font-weight */
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+.fw_800 {
+  font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-4xl: 80px;
+    --fs-3xl: 48px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-xsm: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --fs-4xl: 80px;
+    --fs-3xl: 48px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-xsm: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --fs-4xl: 80px;
+    --fs-3xl: 48px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-xsm: 12px;
+  }
+}
+
+@media (min-width: 1330px) {
+  :root {
+    --fs-4xl: 80px;
+    --fs-3xl: 48px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-xsm: 12px;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --fs-4xl: 80px;
+    --fs-3xl: 48px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-xsm: 12px;
+  }
+}
