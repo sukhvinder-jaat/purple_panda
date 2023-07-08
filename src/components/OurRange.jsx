@@ -9,15 +9,14 @@ const OurRange = () => {
           <Row className="pt-3">
             <Col lg={12}>
               <div className="our_range_box">
-                <p>
-                  Our <span>Range</span>
+                <p className="ff_Philosopher fw_700 fs_3xl text-center clr_white m-0 ">
+                  Our <span className="color_purple">Range</span>
                 </p>
               </div>
             </Col>
           </Row>
         </div>
       </section>
-      
     </>
   );
 };
