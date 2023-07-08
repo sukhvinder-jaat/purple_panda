@@ -40,9 +40,14 @@
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
+  --color-purple: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%) !important;
+
 }
 .clr_white {
   color: var(--color-clr_white) !important;
+}
+.color_purple{
+  color: var(--color-purple);
 }
 .bg_backblack {
   background-color: var(--color-black_back);

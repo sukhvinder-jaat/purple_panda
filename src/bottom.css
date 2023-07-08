@@ -1,0 +1,8 @@
+.our_range_box {
+  border-radius: 10px;
+  border: 1px solid #411a68;
+  background: rgba(22, 15, 47, 0.5);
+  backdrop-filter: blur(9px);
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
