@@ -18,7 +18,7 @@ const MyNav = () => {
   return (
     <>
       <div className="bg_backblack">
-        <Container className="">
+        <Container className="container_1140">
           {/* btn */}
           <div className=" d-flex justify-content-between d-xl-none align-items-center px-md-4 py-3">
             <span>
@@ -100,6 +100,7 @@ const MyNav = () => {
                         </li>
                       </ul>
                       <div className=" d-flex flex-xl-row flex-column">
+                        <div className="nav_input"></div>
                         <span>
                           <img
                             src={shopping}

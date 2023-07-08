@@ -31,12 +31,16 @@
   /* color */
   --color-clr_white: #ffffff !important;
   --color-black_back: #07031d !important;
+  --color-black_21: #212121 !important;
 }
 .clr_white {
   color: var(--color-clr_white) !important;
 }
 .bg_backblack {
   background-color: var(--color-black_back);
+}
+.bg_black21 {
+  background-color: var(--color-black_21);
 }
 /* font_size */
 .fs_4xl {
