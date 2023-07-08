@@ -1,3 +1,10 @@
+.btn_all {
+    padding: 14px 34px;
+    border-radius: 40px;
+    background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%));
+    line-height: normal;
+}
+
 .about_back {
     background: linear-gradient(180deg, #07031D 0%, rgba(7, 3, 29, 0.17) 52.08%, #07031D 100%), radial-gradient(71.76% 38.00% at 77.08% 57.34%, rgba(50, 0, 81, 0.00) 0%, rgba(51, 0, 83, 0.83) 90.95%), linear-gradient(0deg, #22002D 0%, #22002D 100%), lightgray -2.255px -82.369px / 122.354% 154.154% no-repeat;
     background-blend-mode: normal, normal, hue, normal;
@@ -6,10 +13,24 @@
 .back_card {
     border-radius: 10px;
     backdrop-filter: blur(9px);
+
 }
 
-.btn_all {
-    padding: 14px 34px;
-    border-radius: 40px;
-    background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%));
-    }
+.botder::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 450px;
+    border-left: 3px solid var(--color-clr_purple);
+}
+
+
+.grid_gap {
+    gap: 30px;
+    grid-template-columns: auto;
+}
+.img_1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}

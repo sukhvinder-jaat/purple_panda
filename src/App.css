@@ -43,6 +43,7 @@
   --fs-xsm: 12px;
   /* color */
   --color-clr_white: #ffffff !important;
+  --color-clr_purple: #BA20F7 !important;
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
@@ -53,16 +54,15 @@
 .clr_white {
   color: var(--color-clr_white) !important;
 }
-<<<<<<< HEAD
-
-=======
+.clr_purple {
+  color: var(--color-clr_purple) !important;
+}
 .color_purple {
   color: linear-gradient(170deg, rgba(170, 31, 254, 1), rgba(221, 34, 230, 1));
   background: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
->>>>>>> 30ba2989a7b2e9f16e02daae9ef8094a3ed8ed17
 .bg_backblack {
   background-color: var(--color-black_back);
 }
