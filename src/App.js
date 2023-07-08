@@ -18,7 +18,6 @@ function App() {
       <Toronto />
       <Cannabis />
       <OurRange />
-      <ExpressDeliver />
       <MyFooter />
       <Hero />
       <Mushrooms />
