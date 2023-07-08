@@ -1,5 +1,6 @@
 import React from "react";
 import nav_btn from "../assets/img/svg/nav_panda.svg";
+import shopping from "../assets/img/svg/nav_shoping.svg";
 // import search from "../assets/images/svg/search_icon.svg";
 import { ImCross } from "react-icons/im";
 import { AiOutlineAlignRight } from "react-icons/ai";
@@ -38,7 +39,7 @@ const MyNav = () => {
           </div>
           {/* nav */}
           <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
-            <div className="bg_nav_black py-4 vh_100_1920 position-relative">
+            <div className="py-4 vh_100_1920 position-relative">
               <div className="mx-md-5 mx-sm-3 mx-1">
                 <div className="nav_container">
                   <div className=" d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_992">
@@ -49,72 +50,67 @@ const MyNav = () => {
                         className="w-100 me-3"
                       />
                     </span>
-                    {/* search */}
-                    <div className="rounded-pill d-flex align-items-center nav_input me-lg-4">
-                      <input
-                        type="text"
-                        placeholder="Search here..."
-                        className="input_width bg-transparent border-0 d-xxl-block d-none opacity_06 fst-italic clr_white"
-                      />
-                      {/* <span className="pointer">
-                        <img src={search} alt="search" className="w-100" />
-                      </span> */}
-                    </div>
                     {/* option */}
-                    <ul className="d-flex align-items-center mb-xl-0 flex-xl-row flex-column ps-0 gap-xl-0 gap-2 mb-4">
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          About
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          Features
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          Support
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
-                          onClick={clickshow}
-                        >
-                          FAQs
-                        </a>
-                      </li>
-                    </ul>
-                    <div className=" d-flex flex-xl-row flex-column">
-                      <button className="ff_way clr_white fw_400 fs_sm login_btn bg-transparent position-relative button_hover overflow-hidden">
-                        Login
-                      </button>
-                      <button className="ff_way clr_white fw_400 fs_sm sign_btn ms-xl-3 mt-xl-0 mt-4 bg_orange border-0 position-relative button_hover overflow-hidden">
-                        SignUp
-                      </button>
+                    <div className=" d-flex align-items-center">
+                      <ul className="d-flex align-items-center mb-xl-0 flex-xl-row flex-column ps-0 gap-xl-0 gap-2 mb-4">
+                        <li>
+                          <a
+                            href="#"
+                            className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                            onClick={clickshow}
+                          >
+                            HOME
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                            onClick={clickshow}
+                          >
+                            SHOP
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                            onClick={clickshow}
+                          >
+                            ABOUT
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                            onClick={clickshow}
+                          >
+                            CONTACT
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            className="me-xl-4 opacity_06 ff_way clr_white fw_400 fs_sm"
+                            onClick={clickshow}
+                          >
+                            FAQ
+                          </a>
+                        </li>
+                      </ul>
+                      <div className=" d-flex flex-xl-row flex-column">
+                        <span>
+                          <img
+                            src={shopping}
+                            alt="shopping"
+                            className="w-100"
+                          />
+                        </span>
+                        <button className="ff_way clr_white fw_400 fs_sm sign_btn ms-xl-3 mt-xl-0 mt-4 bg_orange border-0 position-relative button_hover overflow-hidden">
+                          SignUp
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
