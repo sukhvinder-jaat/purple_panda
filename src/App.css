@@ -13,7 +13,6 @@
   scroll-behavior: smooth !important;
 }
 
-
 /* font-family*/
 .ff_Montserrat {
   font-family: "Montserrat" !important;
@@ -49,12 +48,13 @@
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
   --color-nav_top: #2f015b !important;
-  --color-back_shadow: rgba(22, 15, 47, 0.50) !important;
+  --color-back_shadow: rgba(22, 15, 47, 0.5) !important;
 }
 
 .clr_white {
   color: var(--color-clr_white) !important;
 }
+
 .clr_dark_blur {
   color: var(--color-clr_dark_blur) !important;
 }
@@ -65,10 +65,11 @@
 
 .color_purple {
   color: linear-gradient(170deg, rgba(170, 31, 254, 1), rgba(221, 34, 230, 1));
-  background: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
+  background: linear-gradient(126.14deg, #aa1ffe 3.66%, #dd22e6 95.92%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .bg_backblack {
   background-color: var(--color-black_back);
 }

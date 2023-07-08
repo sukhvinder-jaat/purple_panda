@@ -5,11 +5,11 @@ import About from "./components/About";
 import Toronto from "./components/Toronto";
 import Cannabis from "./components/Cannabis";
 import OurRange from "./components/OurRange";
-import ExpressDeliver from "./components/ExpressDeliver";
-import MyFooter from "./components/MyFooter";
+import { Hero } from "./components/Hero";
+import { Mushrooms } from "./components/Mushrooms";
 function App() {
   return (
-    <div className="App bg_backblack">
+    <div className="App bg_backblack overflow-hidden">
       <MyNav />
       <About />
       <Toronto />
@@ -17,6 +17,10 @@ function App() {
       <OurRange />
       <ExpressDeliver />
       <MyFooter />
+      <Hero />
+      <Mushrooms />
+      <OurRange />
+      <ExpressDeliver />
     </div>
   );
 }
