@@ -1,29 +1,27 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@splidejs/react-splide/css/sea-green";
-import MyNav from "./components/MyNav";
 import About from "./components/About";
 import Toronto from "./components/Toronto";
 import Cannabis from "./components/Cannabis";
 import OurRange from "./components/OurRange";
+import ExpressDeliver from "./components/ExpressDeliver";
+import MyFooter from "./components/MyFooter";
+import StoreHours from "./components/StoreHours";
 import { Hero } from "./components/Hero";
 import { Mushrooms } from "./components/Mushrooms";
-import ExpressDelivery from "./components/ExpressDeliver"
-import MyFooter from "./components/MyFooter"
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
-      <MyNav />
+      <Hero />
       <About />
       <Toronto />
       <Cannabis />
-      <OurRange />
-      <MyFooter />
-      <Hero />
       <Mushrooms />
       <OurRange />
-      <ExpressDelivery />
-      <MyFooter/>
+      <ExpressDeliver />
+      <StoreHours />
+      <MyFooter />
     </div>
   );
 }
