@@ -39,6 +39,7 @@
   --color-clr_white: #ffffff !important;
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
+  --color-silver_21: #565656 !important;
 }
 .clr_white {
   color: var(--color-clr_white) !important;
