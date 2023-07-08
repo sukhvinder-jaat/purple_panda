@@ -1,16 +1,18 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import about_1 from "../assets/img/webp/about_1.webp";
-import about_2 from "../assets/img/webp/about_2.webp";
-import about_3 from "../assets/img/webp/about_3.webp";
-import about_4 from "../assets/img/webp/about_4.webp";
-import about_5 from "../assets/img/webp/about_5.webp";
+import cannabis_1 from "../assets/img/webp/cannabis_1.webp";
+import cannabis_2 from "../assets/img/webp/cannabis_2.webp";
+import cannabis_3 from "../assets/img/webp/cannabis_3.webp";
+import cannabis_4 from "../assets/img/webp/cannabis_4.webp";
+import cannabis_5 from "../assets/img/webp/cannabis_5.webp";
 const Cannabis = () => {
   return (
     <section className="about_back py-5">
       <div className="container_1140">
         <div className=" text-center d-flex flex-column align-items-center">
-          <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0">Cannabis</p>
+          <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0">
+            Cannabis
+          </p>
           <p className="fw_400 fs_md ff_Montserrat clr_white max_w_800">
             While we stock all sorts of products to make you feel great, we’re
             experts and lovers of cannabis at heart. We offer a wide range of
@@ -55,11 +57,31 @@ const Cannabis = () => {
           </Col>
           <Col xl={5}>
             <div className="d-grid grid_gap">
-              <img className="about_1 w-100" src={about_1} alt="about_1" />
-              <img className="about_2 w-100" src={about_2} alt="about_2" />
-              <img className="about_3 w-100" src={about_3} alt="about_3" />
-              <img className="about_4 w-100" src={about_4} alt="about_4" />
-              <img className="about_5 w-100" src={about_5} alt="about_5" />
+              <img
+                className="about_1 w-100"
+                src={cannabis_1}
+                alt="cannabis_1"
+              />
+              <img
+                className="about_2 w-100"
+                src={cannabis_2}
+                alt="cannabis_2"
+              />
+              <img
+                className="about_3 w-100"
+                src={cannabis_3}
+                alt="cannabis_3"
+              />
+              <img
+                className="about_4 w-100"
+                src={cannabis_4}
+                alt="cannabis_4"
+              />
+              <img
+                className="about_5 w-100"
+                src={cannabis_5}
+                alt="cannabis_5"
+              />
             </div>
           </Col>
         </Row>
