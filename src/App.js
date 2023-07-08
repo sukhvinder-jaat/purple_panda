@@ -24,7 +24,6 @@ function App() {
       <OurRange />
       <ExpressDelivery />
       <MyFooter/>
-      <ExpressDeliver />
     </div>
   );
 }
