@@ -25,7 +25,7 @@ const MyNav = () => {
               <a href="#">
                 <img
                   src={nav_btn}
-                  alt="nav_btn"
+                  alt="nav_1btn"
                   className="w-100 position-relative z_10"
                 />
               </a>
