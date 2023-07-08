@@ -1,0 +1,71 @@
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import about_1 from "../assets/img/webp/about_1.webp";
+import about_2 from "../assets/img/webp/about_2.webp";
+import about_3 from "../assets/img/webp/about_3.webp";
+import about_4 from "../assets/img/webp/about_4.webp";
+import about_5 from "../assets/img/webp/about_5.webp";
+const Cannabis = () => {
+  return (
+    <section className="about_back py-5">
+      <div className="container_1140">
+        <div className=" text-center d-flex flex-column align-items-center">
+          <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0">Cannabis</p>
+          <p className="fw_400 fs_md ff_Montserrat clr_white max_w_800">
+            While we stock all sorts of products to make you feel great, we’re
+            experts and lovers of cannabis at heart. We offer a wide range of
+            buds each with different highs, flavors, and aromas, so you can find
+            the perfect joint-filler, bowl-packer, or pipe clearer to suit your
+            tastes s
+          </p>
+        </div>
+        <Row className="pt-5">
+          <Col xl={7}>
+            <div className="back_shadow back_card ps-5 py-5 pe-4 border_about position-relative">
+              <p className="fw_400 fs_3xl ff_Montserrat clr_white mb-0">
+                Strain <span className="color_purple">Families</span>
+              </p>
+              <p className="fw_400 fs_md ff_Montserrat clr_white mb-0">
+                We stock the three main families of cannabis at Purple Panda,
+                each of which has its own qualities.
+              </p>
+              <span className=" d-flex align-items-start pt-5">
+                <p className="fw_600 fs_xl ff_Montserrat clr_white">Indica:</p>
+                <p className="fw_400 fs_md ff_Montserrat clr_white pt-1 ps-4">
+                  These are your bedtime buds, great for relaxing at the end of
+                  the day and for treating stress and anxiety.
+                </p>
+              </span>
+              <span className=" d-flex align-items-start pt-4">
+                <p className="fw_600 fs_xl ff_Montserrat clr_white">Sativa:</p>
+                <p className="fw_400 fs_md ff_Montserrat clr_white pt-1 ps-4">
+                  Smoke up some Sativa for a boost of energy and creativity,
+                  perfect for a sunny summer’s day with friends!
+                </p>
+              </span>
+              <span className=" d-flex align-items-start pt-4">
+                <p className="fw_600 fs_xl ff_Montserrat clr_white">Hybrid:</p>
+                <p className="fw_400 fs_md ff_Montserrat clr_white pt-1 ps-4">
+                  These Get the best of both worlds with our Hybrid range,
+                  bringing together the sensations and flavors of Indica and
+                  Sativa for something totally unique.
+                </p>
+              </span>
+            </div>
+          </Col>
+          <Col xl={5}>
+            <div className="d-grid grid_gap">
+              <img className="about_1 w-100" src={about_1} alt="about_1" />
+              <img className="about_2 w-100" src={about_2} alt="about_2" />
+              <img className="about_3 w-100" src={about_3} alt="about_3" />
+              <img className="about_4 w-100" src={about_4} alt="about_4" />
+              <img className="about_5 w-100" src={about_5} alt="about_5" />
+            </div>
+          </Col>
+        </Row>
+      </div>
+    </section>
+  );
+};
+
+export default Cannabis;
