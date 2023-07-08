@@ -5,6 +5,46 @@
   background-color: var(--color-black_21);
   border: 1px solid var(--color-silver_21) !important;
 }
+.nav_input input {
+  padding: 6px 12px;
+}
+.nav_input input::placeholder {
+  color: var(--color-clr_white);
+  font-weight: 400;
+  font-family: "Montserrat" !important;
+  font-size: var(--fs-xsm);
+}
+.hover_bold {
+  transition: all 0.4s linear;
+}
+.hover_bold:hover {
+  -webkit-text-stroke: 1px;
+}
+.hover_line:hover::after {
+  width: 100%;
+  left: 0;
+}
+.hover_line::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: var(--linear, linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%));
+  bottom: -4px;
+  left: 50%;
+  transition: 0.6s ease-in-out;
+}
+.pointer {
+  cursor: pointer !important;
+}
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+@media (max-width: 1920px) and(min-width:1200px) {
+  .vh_100_between {
+    min-height: 100vh;
+  }
+}
 @media (max-width: 1200px) {
   .nav_show {
     position: fixed;
@@ -28,7 +68,7 @@
     clip-path: circle(75%);
     background-color: black !important;
   }
-  .vh_100_992 {
+  .vh_100_1200 {
     min-height: 100vh;
   }
 }
