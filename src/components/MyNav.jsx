@@ -100,7 +100,14 @@ const MyNav = () => {
                         </li>
                       </ul>
                       <div className=" d-flex flex-xl-row flex-column">
-                        <div className="nav_input"></div>
+                        {/* search */}
+                        <div className="nav_input">
+                          <input
+                            type="text"
+                            placeholder="Search here.."
+                            className="bg_black21"
+                          />
+                        </div>
                         <span>
                           <img
                             src={shopping}
