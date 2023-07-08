@@ -6,6 +6,19 @@
   backdrop-filter: blur(9px);
   padding-top: 64px;
   padding-bottom: 80px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.express_delivery_box {
+  border-radius: 10px;
+  background: rgba(22, 15, 47, 0.5);
+  backdrop-filter: blur(9px);
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.express_text_box {
+  padding-left: 34px;
+  padding-right: 34px;
 }
 /*================================================================================== max width  ==============================================================================*/
 .mw_703 {
@@ -14,10 +27,14 @@
 .mw_177 {
   max-width: 177px !important;
 }
+.min_w_307 {
+  min-width: 307px;
+}
 /*===================================================================================== height ============================================================================ */
 .h_291 {
   height: 291px;
 }
+
 /*==================================================================================== line height ======================================================================= */
 .lh_normal {
   line-height: normal;
@@ -35,6 +52,24 @@
 .top_0 {
   top: 0;
 }
+.left_14 {
+  left: 14%;
+}
+.top_-35{
+    top: -35px;
+}
+.right_-105{
+    right: -105px;
+}
+/* before after  */
+.line:after {
+  content: "";
+  position: absolute;
+  top: 3%;
+  left: 1px;
+  height: 95%;
+  border: 2px solid #ba20f7 !important;
+}
 /*================================================================================ animations ======================================================================== */
 .animation_stem {
   animation: stem 3s linear infinite alternate;
@@ -46,11 +81,45 @@
   }
   100% {
     filter: brightness(-50px);
-    transform: scale(1.1);
-
+    transform: scale(1);
+  }
+}
+.animation_express_img {
+  animation: expressimg 3s linear infinite alternate;
+}
+@keyframes expressimg {
+  0% {
+    filter: blur(0);
+  }
+  100% {
+    filter: blur(2px);
   }
 }
 /*==================================================================================== transisation  =====================================================================*/
 .transisation {
   transition: all 0.2s linear !important;
+}
+/*==================================================================================== shadow circles ==================================================================== */
+.express_circle_shadow {
+  background-color: #9f00ff !important;
+  filter: blur(134.5px);
+  width: 210px;
+  height: 210px;
+}
+/*==================================================================================== media screen ====================================================================== */
+@media (max-width: 1400px) {
+  .left_14 {
+    left: 1%;
+  }
+}
+@media (min-width: 992px) {
+  .position_absolute {
+    position: absolute;
+  }
+  .mw_900 {
+    max-width: 900px;
+  }
+  .h_563 {
+    height: 563px;
+  }
 }
