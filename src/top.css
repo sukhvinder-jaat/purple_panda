@@ -40,7 +40,12 @@
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px !important;
 }
-@media (max-width: 992px) {
+@media (max-width: 1920px) and(min-width:1200px) {
+  .vh_100_between {
+    min-height: 100vh;
+  }
+}
+@media (max-width: 1200px) {
   .nav_show {
     position: fixed;
     opacity: 0;
@@ -63,7 +68,7 @@
     clip-path: circle(75%);
     background-color: black !important;
   }
-  .vh_100_992 {
+  .vh_100_1200 {
     min-height: 100vh;
   }
 }
