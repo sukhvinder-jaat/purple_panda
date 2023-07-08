@@ -40,7 +40,7 @@ const ExpressDeliver = () => {
             </Col>
           </Row>
         </div>
-        <span className="position-absolute right_-105 top_-35">
+        <span className="position-absolute right_-105 top_-35 express_cir_ani">
           <div className="express_circle_shadow"></div>
         </span>
       </section>
