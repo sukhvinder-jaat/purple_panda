@@ -6,9 +6,9 @@ import OurRange from "./components/OurRange";
 function App() {
   return (
     <div className="App bg_backblack">
-      {/* <MyNav />
-      <About /> */}
-      <OurRange/>
+      <MyNav />
+      <About />
+      <OurRange />
     </div>
   );
 }

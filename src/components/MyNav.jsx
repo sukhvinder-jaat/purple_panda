@@ -23,13 +23,15 @@ const MyNav = () => {
           <span className=" d-flex align-items-center ">
             <img src={gift} alt="gift" className="w-100" />
           </span>
-          <p className=" mb-0 text-white fs_md fw_800 ff_Montserrat ms-3 pt-3">
+          <p className=" mb-0 text-white fs_md fw_800 ff_Montserrat ms-3">
             Black Friday{" "}
             <span className="fw_400">
               savings are here ,save up to 10% off on coupon code
             </span>
           </p>
-          <p className=" ff_Montserrat fs_md fw_800 mb-0 pt-2 clr_purple">Shop Now</p>
+          <p className=" ff_Montserrat fs_md fw_800 mb-0 color_purple pointer ms-3">
+            Shop Now
+          </p>
         </div>
         <Container className="container_1140">
           {/* btn */}
