@@ -4,7 +4,7 @@ import footerlogo from "../assets/img/png/footer-page-logo.png";
 const MyFooter = () => {
   return (
     <>
-      <section className="bg_footer">
+      <section className="bg_footer position-relative">
         <div className="container_1140">
           <div className="d-flex justify-content-center pt_35">
             <a href="#">
@@ -25,9 +25,7 @@ const MyFooter = () => {
           <div className="d-flex justify-content-center pt-4">
             <div className="d-flex justify-content-center align-items-center">
               <a href="#" className="clr_white">
-                <p className="pe-3 ff_montserrat fw_600 fs_md mb-0 ">
-                  SHOP
-                </p>
+                <p className="pe-3 ff_montserrat fw_600 fs_md mb-0 ">SHOP</p>
               </a>
               <a href="#1" className="clr_white">
                 <p className="ps-4 pe-3 ff_montserrat fw_600 fs_md mb-0 ">
@@ -35,9 +33,7 @@ const MyFooter = () => {
                 </p>
               </a>
               <a href="#" className="clr_white">
-                <p className="ps-4 ff_montserrat fw_600 fs_md mb-0 ">
-                  CONTACT
-                </p>
+                <p className="ps-4 ff_montserrat fw_600 fs_md mb-0 ">CONTACT</p>
               </a>
             </div>
           </div>
@@ -60,6 +56,9 @@ const MyFooter = () => {
             copyright2022purplepanda
           </p>
         </div>
+        <span className="right_-105 top_-50 position-absolute express_cir_ani">
+          <div className="circle_shadow"></div>
+        </span>
       </section>
     </>
   );
