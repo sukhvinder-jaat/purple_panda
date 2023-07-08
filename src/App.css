@@ -3,7 +3,6 @@
 @import url(../src/bottom.css);
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Philosopher:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -12,17 +11,13 @@
   box-sizing: border-box !important;
   scroll-behavior: smooth !important;
 }
-
-
 /* font-family*/
 .ff_Montserrat {
   font-family: "Montserrat" !important;
 }
-
 .ff_Philosopher {
   font-family: "Philosopher" !important;
 }
-
 /* container  */
 .container_1140 {
   max-width: 1140px !important;
@@ -31,7 +26,6 @@
   padding-left: 12px;
   padding-right: 12px;
 }
-
 :root {
   --fs-4xl: 80px;
   --fs-3xl: 48px;
@@ -43,47 +37,44 @@
   --fs-xsm: 12px;
   /* color */
   --color-clr_white: #ffffff !important;
-  --color-clr_purple: #BA20F7 !important;
+  --color-clr_purple: #ba20f7 !important;
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
   --color-nav_top: #2f015b !important;
-  --color-back_shadow: rgba(22, 15, 47, 0.50) !important;
+  --color-back_shadow: rgba(22, 15, 47, 0.5) !important;
 }
-
 .clr_white {
   color: var(--color-clr_white) !important;
 }
+.clr_purple {
+  color: var(--color-clr_purple) !important;
+}
 .color_purple {
   color: linear-gradient(170deg, rgba(170, 31, 254, 1), rgba(221, 34, 230, 1));
-  background: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
+  background: linear-gradient(126.14deg, #aa1ffe 3.66%, #dd22e6 95.92%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 .bg_backblack {
   background-color: var(--color-black_back);
 }
-
 .bg_black21 {
   background-color: var(--color-black_21);
 }
 .bg_nav_top {
   background-color: var(--color-nav_top);
 }
-
 .back_shadow {
   background-color: var(--color-back_shadow);
 }
-
 /* font_size */
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
-
 .fs_3xl {
   font-size: var(--fs-3xl);
 }
-
 .fs_2xl {
   font-size: var(--fs-2xl);
 }
@@ -91,40 +82,31 @@
 .fs_xl {
   font-size: var(--fs-xl);
 }
-
 .fs_lg {
   font-size: var(--fs-lg);
 }
-
 .fs_md {
   font-size: var(--fs-md);
 }
-
 .fs_sm {
   font-size: var(--fs-sm);
 }
-
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
-
 /* font-weight */
 .fw_400 {
   font-weight: 400;
 }
-
 .fw_600 {
   font-weight: 600;
 }
-
 .fw_700 {
   font-weight: 700;
 }
-
 .fw_800 {
   font-weight: 800;
 }
-
 @media (min-width: 768px) {
   :root {
     --fs-4xl: 80px;
@@ -137,7 +119,6 @@
     --fs-xsm: 12px;
   }
 }
-
 @media (min-width: 992px) {
   :root {
     --fs-4xl: 80px;
@@ -150,7 +131,6 @@
     --fs-xsm: 12px;
   }
 }
-
 @media (min-width: 1200px) {
   :root {
     --fs-4xl: 80px;
@@ -163,7 +143,6 @@
     --fs-xsm: 12px;
   }
 }
-
 @media (min-width: 1330px) {
   :root {
     --fs-4xl: 80px;
@@ -176,7 +155,6 @@
     --fs-xsm: 12px;
   }
 }
-
 @media (min-width: 1400px) {
   :root {
     --fs-4xl: 80px;

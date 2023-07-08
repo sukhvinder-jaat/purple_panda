@@ -1,14 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import OurRange from "./components/OurRange";
-import ExpressDeliver from "./components/ExpressDeliver";
-import MyFooter from "./components/MyFooter";
+import { Hero } from "./components/Hero";
+import { Mushrooms } from "./components/Mushrooms";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
+      <Hero />
+      <Mushrooms />
       <OurRange />
-      <ExpressDeliver />
-      <MyFooter/>
+      <ExpressDeliver/>
     </div>
   );
 }
