@@ -19,14 +19,16 @@ const MyNav = () => {
   }
   return (
     <>
-      <div className="bg_backblack flex-grow-0">
+      <div className="flex-grow-0">
         <div className="bg_nav_top py-3 d-flex align-items-center justify-content-center">
           <span className=" d-flex align-items-center ">
             <img src={gift} alt="gift" className="w-100" />
           </span>
           <p className="d-md-block d-none mb-0 text-white fs_md fw_800 ff_Montserrat ms-3">
             Black Friday
-            <span className="fw_400"> savings are here ,save up to 10% off on coupon code
+            <span className="fw_400">
+              {" "}
+              savings are here ,save up to 10% off on coupon code
             </span>
           </p>
           <p className=" ff_Montserrat fs_md fw_800 mb-0 color_purple pointer ms-3">
@@ -35,7 +37,7 @@ const MyNav = () => {
         </div>
         <Container className="container_1140">
           {/* btn */}
-          <div className=" d-flex justify-content-between d-xl-none align-items-center px-md-4 py-3">
+          <div className=" d-flex justify-content-between d-xl-none align-items-center py-3">
             <span>
               <a href="#">
                 <img
@@ -45,6 +47,16 @@ const MyNav = () => {
                 />
               </a>
             </span>
+            <div className="nav_input rounded-pill overflow-hidden pe-3 d-sm-block d-none">
+              <input
+                type="text"
+                placeholder="Search here.."
+                className="bg_black21 border-0 text-white ff_Montserrat fw_400 fs_xsm"
+              />
+              <span>
+                <img src={search} alt="search" className="pointer" />
+              </span>
+            </div>
             <h2
               onClick={clickshow}
               className="pointer position-relative z_10 text-white ps-4 mb-0"
@@ -55,7 +67,7 @@ const MyNav = () => {
           {/* nav */}
           <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
             <div className="py-4 vh_100_1200 position-relative">
-              <div className="mx-md-5 mx-sm-3 mx-1">
+              <div>
                 <div className="nav_container">
                   <div className=" d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_1200">
                     <span className=" d-xl-block d-none me-3">
