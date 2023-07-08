@@ -22,11 +22,14 @@
   --fs-xsm: 12px;
   /* color */
   --color-clr_white: #ffffff !important;
+  --color-black_back: #07031d !important;
 }
 .clr_white {
   color: var(--color-clr_white) !important;
 }
-
+.bg_backblack {
+  background-color: var(--color-black_back);
+}
 /* font_size */
 .fs_4xl {
   font-size: var(--fs-4xl);
