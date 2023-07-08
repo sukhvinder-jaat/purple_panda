@@ -40,6 +40,7 @@
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
+  --color-nav_top: #2f015b !important;
 }
 .clr_white {
   color: var(--color-clr_white) !important;
@@ -49,6 +50,9 @@
 }
 .bg_black21 {
   background-color: var(--color-black_21);
+}
+.bg_nav_top {
+  background-color: var(--color-nav_top);
 }
 /* font_size */
 .fs_4xl {
