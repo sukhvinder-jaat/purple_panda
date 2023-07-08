@@ -20,9 +20,27 @@
   padding-left: 34px;
   padding-right: 34px;
 }
+/*================================================================================ backgrounds ===================================================================== */
+.bg_footer {
+  background-image: url("../src/assets/img/png/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line  */
+.footer_line {
+  opacity: 0.30000001192092896;
+  background: linear-gradient(132deg, #6900a8 0%, #98019f 100%);
+  width: 100%;
+  height: 2px;
+  margin-top: 55px;
+}
 /*================================================================================== max width  ==============================================================================*/
 .mw_703 {
   max-width: 703px;
+}
+.mw_197 {
+  max-width: 197px;
 }
 .mw_177 {
   max-width: 177px !important;
@@ -30,11 +48,16 @@
 .min_w_307 {
   min-width: 307px;
 }
+.mw_600 {
+  max-width: 600px;
+}
 /*===================================================================================== height ============================================================================ */
 .h_291 {
   height: 291px;
 }
-
+.h_148 {
+  height: 148px;
+}
 /*==================================================================================== line height ======================================================================= */
 .lh_normal {
   line-height: normal;
@@ -55,13 +78,23 @@
 .left_14 {
   left: 14%;
 }
-.top_-35{
-    top: -35px;
+.top_-35 {
+  top: -35px;
 }
-.right_-105{
-    right: -105px;
+.right_-105 {
+  right: -105px;
 }
-/* before after  */
+/*================================================================================ padding ===================================================================== */
+.pt_35 {
+  padding-top: 35px;
+}
+.pt_14{
+  padding-top: 14px;
+}
+.pb_30{
+  padding-bottom: 30px;
+}
+/*============================================================================== before after ==============================================================*/
 .line:after {
   content: "";
   position: absolute;
@@ -85,7 +118,7 @@
   }
 }
 .animation_express_img {
-  animation: expressimg 3s linear infinite alternate;
+  animation: expressimg 2s linear infinite alternate;
 }
 @keyframes expressimg {
   0% {
@@ -93,6 +126,19 @@
   }
   100% {
     filter: blur(2px);
+  }
+}
+.express_cir_ani {
+  animation: expresscircle 1s linear infinite alternate;
+}
+@keyframes expresscircle {
+  0% {
+    filter: blur(0);
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(2px);
+    transform: scale(1.5);
   }
 }
 /*==================================================================================== transisation  =====================================================================*/

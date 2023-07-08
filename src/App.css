@@ -47,15 +47,12 @@
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
+  --color-nav_top: #2f015b !important;
   --color-back_shadow: rgba(22, 15, 47, 0.50) !important;
-
 }
 
 .clr_white {
   color: var(--color-clr_white) !important;
-}
-.clr_purple {
-  color: var(--color-clr_purple) !important;
 }
 .color_purple {
   color: linear-gradient(170deg, rgba(170, 31, 254, 1), rgba(221, 34, 230, 1));
@@ -69,6 +66,9 @@
 
 .bg_black21 {
   background-color: var(--color-black_21);
+}
+.bg_nav_top {
+  background-color: var(--color-nav_top);
 }
 
 .back_shadow {
