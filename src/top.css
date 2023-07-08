@@ -65,6 +65,7 @@
   top: 0;
   z-index: 2;
   background-size: cover;
+  cursor: none;
 }
 .panda_bottom_liner::before {
   content: "";
@@ -75,6 +76,23 @@
   transform: rotate(180deg);
   z-index: 5;
   background: linear-gradient(180deg, #07031d 0%, rgba(7, 3, 29, 0.01) 81.25%);
+}
+.splide {
+  padding: 0em !important;
+}
+.splide__arrow {
+  display: none !important;
+}
+.splide__pagination__page.is-active {
+  background: var(
+    --linear,
+    linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%)
+  ) !important;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.splide__pagination {
+  bottom: -20px !important;
 }
 @media (max-width: 1920px) and (min-width: 1200px) {
   .vh_100_between {
