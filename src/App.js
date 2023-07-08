@@ -10,12 +10,10 @@ import { Mushrooms } from "./components/Mushrooms";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
-      {/* <MyNav /> */}
       <Hero />
       <Mushrooms />
-      {/* <About />
       <OurRange />
-      <OurRange /> */}
+      <ExpressDeliver/>
     </div>
   );
 }
