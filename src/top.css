@@ -6,8 +6,11 @@
   box-sizing: border-box !important;
   scroll-behavior: smooth !important;
 }
-.z_10{
-    z-index: 10;
+.z_10 {
+  z-index: 10;
+}
+.nav_input {
+  background-color: var(--color-black_21);
 }
 @media (max-width: 1200px) {
   .nav_show {
