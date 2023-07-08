@@ -3,7 +3,14 @@
 @import url(../src/bottom.css);
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Philosopher:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  scroll-behavior: smooth !important;
+}
 /* font-family*/
 .ff_Montserrat {
   font-family: "Montserrat" !important;
@@ -32,6 +39,7 @@
   --color-clr_white: #ffffff !important;
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
+  --color-silver_21: #565656 !important;
 }
 .clr_white {
   color: var(--color-clr_white) !important;

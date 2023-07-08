@@ -25,7 +25,7 @@ const MyNav = () => {
               <a href="#">
                 <img
                   src={nav_btn}
-                  alt="nav_btn"
+                  alt="nav_1btn"
                   className="w-100 position-relative z_10"
                 />
               </a>
@@ -100,7 +100,14 @@ const MyNav = () => {
                         </li>
                       </ul>
                       <div className=" d-flex flex-xl-row flex-column">
-                        <div className="nav_input"></div>
+                        {/* search */}
+                        <div className="nav_input">
+                          <input
+                            type="text"
+                            placeholder="Search here.."
+                            className="bg_black21"
+                          />
+                        </div>
                         <span>
                           <img
                             src={shopping}
