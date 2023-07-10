@@ -1,13 +1,13 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { Container } from "react-bootstrap";
-import mushroom1 from "../assets/img/png/mushroom1.png";
-import mushroom2 from "../assets/img/png/mushroom2.png";
-import mushroom3 from "../assets/img/png/mushroom3.png";
-import mushroom4 from "../assets/img/png/mushroom4.png";
-import mushroom5 from "../assets/img/png/mushroom5.png";
-import mushroom6 from "../assets/img/png/mushroom6.png";
-import mushroom7 from "../assets/img/png/mushroom7.png";
+import mushroom1 from "../assets/img/webp/mushroom1.webp";
+import mushroom2 from "../assets/img/webp/mushroom2.webp";
+import mushroom3 from "../assets/img/webp/mushroom3.webp";
+import mushroom4 from "../assets/img/webp/mushroom4.webp";
+import mushroom5 from "../assets/img/webp/mushroom5.webp";
+import mushroom6 from "../assets/img/webp/mushroom6.webp";
+import mushroom7 from "../assets/img/webp/mushroom7.webp";
 export const Mushrooms = () => {
   return (
     <div>

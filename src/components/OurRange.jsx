@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import leftstem from "../assets/img/png/our-range-left-stem.png";
-import rightstem from "../assets/img/png/our-range-right-stem.png";
+import leftstem from "../assets/img/webp/our-range-left-stem.webp";
+import rightstem from "../assets/img/webp/our-range-right-stem.webp";
 
 const OurRange = () => {
   return (

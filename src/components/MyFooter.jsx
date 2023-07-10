@@ -1,5 +1,6 @@
 import React from "react";
-import footerlogo from "../assets/img/png/footer-page-logo.png";
+import { Link } from "react-router-dom";
+import footerlogo from "../assets/img/webp/footer-page-logo.webp";
 
 const MyFooter = () => {
   return (
@@ -24,22 +25,29 @@ const MyFooter = () => {
           </div>
           <div className="d-flex justify-content-center pt-4">
             <div className="d-flex justify-content-center align-items-center">
-              <a href="#" className="clr_white">
-                <p className="pe-3 ff_montserrat fw_600 fs_md mb-0 ">SHOP</p>
+              <a
+                href="#"
+                className="me-3 clr_white ff_montserrat fw_600 hover_line position-relative fs_md mb-0 "
+              >
+                SHOP
               </a>
-              <a href="#1" className="clr_white">
-                <p className="ps-4 pe-3 ff_montserrat fw_600 fs_md mb-0 ">
-                  ABOUT
-                </p>
-              </a>
-              <a href="#" className="clr_white">
-                <p className="ps-4 ff_montserrat fw_600 fs_md mb-0 ">CONTACT</p>
+              <Link
+                to="/New"
+                className="ms-4 me-3 clr_white ff_montserrat hover_line position-relative fw_600 fs_md mb-0 "
+              >
+                ABOUT
+              </Link>
+              <a
+                href="#"
+                className="ms-4 ff_montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 "
+              >
+                CONTACT
               </a>
             </div>
           </div>
         </div>
         <div className="footer_line"></div>
-        <div className="d-flex align-items-center justify-content-center pt_14 pb_30">
+        <div className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0">
           <svg
             width="9"
             height="9"

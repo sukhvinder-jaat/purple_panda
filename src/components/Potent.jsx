@@ -1,5 +1,5 @@
 import React from "react";
-import potentimg from "../assets/img/png/potent-img.png";
+import potentimg from "../assets/img/webp/potent-img.webp";
 import numbergif from "../assets/img/gif/number_gif.gif";
 import Button from "./Button";
 const Potent = () => {

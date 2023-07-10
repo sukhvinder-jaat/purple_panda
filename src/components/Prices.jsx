@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Button from "./Button";
-import mushroom from "../assets/img/png/prices_mushroom.png";
+import mushroom from "../assets/img/webp/prices_mushroom.webp";
 
 const Prices = () => {
   return (

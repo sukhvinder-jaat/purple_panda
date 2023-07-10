@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import first_1 from "../assets/img/png/first_1.png";
-import first_2 from "../assets/img/png/first_2.png";
-import first_3 from "../assets/img/png/first_3.png";
+import first_1 from "../assets/img/webp/first_1.webp";
+import first_2 from "../assets/img/webp/first_2.webp";
+import first_3 from "../assets/img/webp/first_3.webp";
 export const First = () => {
   return (
     <div className="first_bg py-5">
