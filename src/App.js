@@ -10,10 +10,18 @@ import MyFooter from "./components/MyFooter";
 import StoreHours from "./components/StoreHours";
 import { Hero } from "./components/Hero";
 import { Mushrooms } from "./components/Mushrooms";
+import { MostPopular } from "./components/MostPopular";
+import { Latest } from "./components/Latest";
+import { First } from "./components/First";
+import { Classifications } from "./components/Classifications";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
       <Hero />
+      <MostPopular />
+      <Classifications />
+      <Latest />
+      <First />
       <About />
       <Toronto />
       <Cannabis />

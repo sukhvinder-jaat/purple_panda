@@ -11,7 +11,7 @@ import mushroom7 from "../assets/img/png/mushroom7.png";
 export const Mushrooms = () => {
   return (
     <div>
-      <Container className=" container_1140 py-5">
+      <Container className="container_1140 py-5">
         <Splide
           options={{
             perPage: 7,
@@ -65,83 +65,82 @@ export const Mushrooms = () => {
                   pauseOnHover: false,
                 },
               },
-              
             },
           }}
         >
           {/* box_1 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100">
               <span>
                 <img src={mushroom1} alt="mushroom1" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Mushrooms
               </p>
             </div>
           </SplideSlide>
           {/* box_2 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100">
               <span>
                 <img src={mushroom2} alt="mushroom2" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Extracts
               </p>
             </div>
           </SplideSlide>
           {/* box_3 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100 d-flex flex-column justify-content-start align-items-center">
               <span>
                 <img src={mushroom3} alt="mushroom2" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Vapes & Accessories
               </p>
             </div>
           </SplideSlide>
           {/* box_4 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100">
               <span>
                 <img src={mushroom4} alt="mushroom2" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 CBD
               </p>
             </div>
           </SplideSlide>
           {/* box_5 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100">
               <span>
                 <img src={mushroom5} alt="mushroom2" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Edibles
               </p>
             </div>
           </SplideSlide>
           {/* box_6 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100">
               <span>
                 <img src={mushroom6} alt="mushroom2" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Cannabis
               </p>
             </div>
           </SplideSlide>
           {/* box_7 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div className="h-100">
               <span>
                 <img src={mushroom7} alt="mushroom2" className="w-100" />
               </span>
-              <p className=" ff_Philosopher mt-1 text-white fs_xl fw_700 text-center text-nowrap">
+              <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center text-nowrap">
                 Bulk Orders
               </p>
             </div>

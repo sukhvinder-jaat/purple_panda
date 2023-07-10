@@ -1,3 +1,37 @@
+/* bg images */
+.bg_hero {
+  background-image: url(../src/assets/img/webp/hero_sec_bg_img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_mostpopular {
+  background-image: url(../src/assets/img/png/mostPopularBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.latest_bg {
+  background-image: url(../src/assets/img/svg/latest_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.first_bg {
+  background-image: url(../src/assets/img/png/first_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.our_bg {
+  background-image: url(../src/assets/img/png/our_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 70%;
+}
+.most_box {
+  border-radius: 10px;
+  background: var(--color-back_shadow);
+  backdrop-filter: blur(9px);
+}
 .z_10 {
   z-index: 10;
 }
@@ -39,11 +73,6 @@
 }
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px !important;
-}
-.bg_hero {
-  background-image: url(../src/assets/img/webp/hero_sec_bg_img.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .min_vh_100 {
   min-height: 100vh;
@@ -94,9 +123,42 @@
 .splide__pagination {
   bottom: -20px !important;
 }
+.our_card {
+  border-radius: 10px;
+  border: 1px solid var(--color-clr_dark_blur);
+  backdrop-filter: blur(9px);
+}
+.our_back_leaf::before {
+  content: "";
+  position: absolute;
+  background-image: url(../src/assets/img/png/our_box_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 193px;
+  height: 219px;
+  top: 40%;
+  right: 10%;
+  animation: leaft_animation 6s linear infinite;
+}
+@keyframes leaft_animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 1920px) and (min-width: 1200px) {
   .vh_100_between {
     min-height: 100vh;
+  }
+}
+@media (min-width: 1500px) {
+  .bg_hero {
+    background-size: 100% 100%;
   }
 }
 @media (max-width: 1200px) {
@@ -120,7 +182,7 @@
     min-height: 100vh;
     z-index: 6;
     clip-path: circle(75%);
-    background-color: black !important;
+    background-color: var(--bs-black) !important;
   }
   .vh_100_1200 {
     min-height: 100vh;

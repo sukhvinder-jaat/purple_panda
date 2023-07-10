@@ -20,24 +20,23 @@ const MyNav = () => {
   return (
     <>
       <div className="flex-grow-0">
-        <div className="bg_nav_top py-3 d-flex align-items-center justify-content-center">
-          <span className=" d-flex align-items-center ">
+        <div className="bg_nav_top py-3 d-flex align-items-center justify-content-center position-relative z_10">
+          <span className="d-flex align-items-center">
             <img src={gift} alt="gift" className="w-100" />
           </span>
           <p className="d-md-block d-none mb-0 text-white fs_md fw_800 ff_Montserrat ms-3">
             Black Friday
             <span className="fw_400">
-              {" "}
               savings are here ,save up to 10% off on coupon code
             </span>
           </p>
-          <p className=" ff_Montserrat fs_md fw_800 mb-0 color_purple pointer ms-3">
+          <p className="ff_Montserrat fs_md fw_800 mb-0 color_purple pointer ms-3">
             Shop Now
           </p>
         </div>
         <Container className="container_1140">
           {/* btn */}
-          <div className=" d-flex justify-content-between d-xl-none align-items-center py-3">
+          <div className="d-flex justify-content-between d-xl-none align-items-center py-3">
             <span>
               <a href="#">
                 <img
@@ -65,12 +64,12 @@ const MyNav = () => {
             </h2>
           </div>
           {/* nav */}
-          <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
+          <div className={`nav_show ${First ? " " : "ps-0 showw"}`}>
             <div className="py-4 vh_100_1200 position-relative">
               <div>
                 <div className="nav_container">
-                  <div className=" d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_1200">
-                    <span className=" d-xl-block d-none me-3">
+                  <div className="d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_1200">
+                    <span className="d-xl-block d-none me-3">
                       <img
                         src={nav_btn}
                         alt="nav_logo"
@@ -78,7 +77,7 @@ const MyNav = () => {
                       />
                     </span>
                     {/* option */}
-                    <div className=" d-flex align-items-center">
+                    <div className="d-flex align-items-center">
                       <ul className="d-flex align-items-center mb-xl-0 flex-xl-row flex-column ps-0 gap-xl-0 gap-2 mb-4">
                         <li>
                           <a
@@ -126,7 +125,7 @@ const MyNav = () => {
                           </a>
                         </li>
                         <li>
-                          <div className=" d-flex flex-xl-row flex-column align-items-center d-xl-none">
+                          <div className="d-flex flex-xl-row flex-column align-items-center d-xl-none">
                             {/* search */}
                             <div className="nav_input rounded-pill overflow-hidden pe-3 me-3 mb-3">
                               <input
@@ -147,7 +146,7 @@ const MyNav = () => {
                           </div>
                         </li>
                       </ul>
-                      <div className=" d-xl-flex d-none flex-xl-row flex-column align-items-center">
+                      <div className="d-xl-flex d-none flex-xl-row flex-column align-items-center">
                         {/* search */}
                         <div className="nav_input rounded-pill overflow-hidden pe-3 me-3">
                           <input
