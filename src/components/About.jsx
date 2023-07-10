@@ -13,7 +13,7 @@ const About = () => {
       <div className="container_1140">
         <Row>
           <Col xl={7}>
-            <div className="back_shadow back_card p-5 border_about position-relative">
+            <div className="back_shadow back_card p-4 p-sm-5 border_about position-relative">
               <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0">
                 About <span className="color_purple">Us</span>
               </p>

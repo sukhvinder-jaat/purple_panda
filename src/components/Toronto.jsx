@@ -16,8 +16,8 @@ const Toronto = () => {
         <div className="text-center d-flex flex-column align-items-center">
           <p className=" fw_600 fs_xl ff_Montserrat clr_white max_w_630">
             We’re based in both the
-            <span className="color_purple">Greater Toronto Area</span>, with our
-            delivery service covering:
+            <span className="color_purple"> Greater Toronto Area</span>, with
+            our delivery service covering:
           </p>
           <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06">
             If you’re in any of these cities and need a little pick me up, you
