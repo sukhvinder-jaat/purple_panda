@@ -23,24 +23,23 @@ import Feel from "./components/Feel";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
-      <Preloader/>
       <Hero />
-      <MostPopular />
-      <Classifications />
-      <Latest />
-      <First />
-      <About />
-      <Toronto />
-      <Prices />
-      <Potent />
-      <Cannabis />
       <Mushrooms />
+      <About />
       <OurRange />
       <ExpressDeliver />
-      <StoreHours />
-      <MyFooter />
+      <Toronto />
+      <Prices />
       <Same />
       <Canada />
+      <Cannabis />
+      <Potent />
+      <Classifications />
+      <MostPopular />
+      <Latest />
+      <First />
+      <StoreHours />
+      <MyFooter />
       <Feel />
     </div>
   );

@@ -7,6 +7,7 @@ import { ImCross } from "react-icons/im";
 import { AiOutlineAlignRight } from "react-icons/ai";
 import { Container } from "react-bootstrap";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 const MyNav = () => {
   const [First, setFirst] = React.useState(true);
   function clickshow() {
@@ -80,13 +81,13 @@ const MyNav = () => {
                     <div className="d-flex align-items-center">
                       <ul className="d-flex align-items-center mb-xl-0 flex-xl-row flex-column ps-0 gap-xl-0 gap-2 mb-4">
                         <li>
-                          <a
-                            href="#"
+                          <Link
+                            to="/"
                             className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             HOME
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <a
@@ -98,13 +99,13 @@ const MyNav = () => {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="#"
+                          <Link
+                            to="/New"
                             className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             ABOUT
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <a
