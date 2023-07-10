@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../assets/img/png/footer-page-logo.png";
+import footerlogo from "../assets/img/webp/footer-page-logo.webp";
 
 const MyFooter = () => {
   return (

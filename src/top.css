@@ -5,7 +5,7 @@
   background-size: cover;
 }
 .bg_mostpopular {
-  background-image: url(../src/assets/img/png/mostPopularBg.png);
+  background-image: url(../src/assets/img/webp/mostPopularBg.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -15,14 +15,14 @@
   background-repeat: no-repeat;
 }
 .first_bg {
-  background-image: url(../src/assets/img/png/first_bg.png);
+  background-image: url(../src/assets/img/webp/first_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: -20px;
   margin-right: -20px;
 }
 .our_bg {
-  background-image: url(../src/assets/img/png/our_bg.png);
+  background-image: url(../src/assets/img/webp/our_bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 70%;

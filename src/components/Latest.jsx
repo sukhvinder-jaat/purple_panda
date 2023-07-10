@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import blog_1 from "../assets/img/png/blog_1.png";
-import blog_2 from "../assets/img/png/blog_2.png";
-import blog_3 from "../assets/img/png/blog_3.png";
+import blog_1 from "../assets/img/webp/blog_1.webp";
+import blog_2 from "../assets/img/webp/blog_2.webp";
+import blog_3 from "../assets/img/webp/blog_3.webp";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 export const Latest = () => {
   return (

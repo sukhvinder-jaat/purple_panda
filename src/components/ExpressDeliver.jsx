@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import expressdeliveryimg from "../assets/img/png/express-col-img.png";
+import expressdeliveryimg from "../assets/img/webp/express-col-img.webp";
 
 const ExpressDeliver = () => {
   return (
