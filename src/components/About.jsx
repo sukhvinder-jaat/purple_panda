@@ -13,7 +13,7 @@ const About = () => {
       <div className="container_1140">
         <Row>
           <Col xl={7}>
-            <div className="back_shadow back_card p-4 p-sm-5 border_about position-relative">
+            <div className="back_shadow back_card p-4 p-sm-5 border_about position-relative card_hover overflow-hidden">
               <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0">
                 About <span className="color_purple">Us</span>
               </p>
@@ -40,11 +40,15 @@ const About = () => {
           </Col>
           <Col xl={5}>
             <div className="d-grid grid_gap">
-              <img className="about_1 w-100" src={about_1} alt="about_1" />
-              <img className="about_2 w-100" src={about_2} alt="about_2" />
-              <img className="about_3 w-100" src={about_3} alt="about_3" />
-              <img className="about_4 w-100" src={about_4} alt="about_4" />
-              <img className="about_5 w-100" src={about_5} alt="about_5" />
+              <img
+                className="about_1 w-100 us_img_hover"
+                src={about_1}
+                alt="about_1"
+              />
+              <img className="about_2 w-100 us_img_hover" src={about_2} alt="about_2" />
+              <img className="about_3 w-100 us_img_hover" src={about_3} alt="about_3" />
+              <img className="about_4 w-100 us_img_hover" src={about_4} alt="about_4" />
+              <img className="about_5 w-100 us_img_hover" src={about_5} alt="about_5" />
             </div>
           </Col>
         </Row>

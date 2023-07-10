@@ -19,7 +19,7 @@ const ExpressDeliver = () => {
               <div className="w-100 h_563 d-none d-lg-block"></div>
             </Col>
             <Col lg={5}>
-              <div className="express_delivery_box position-relative line">
+              <div className="express_delivery_box position-relative line card_hover overflow-hidden">
                 <div className="express_text_box">
                   <p className="ff_Philosopher fs_3xl fw_700 clr_white m-0 lh_normal pb-1">
                     <span className="color_purple">Express</span> Cannabis

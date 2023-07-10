@@ -8,7 +8,7 @@ export const Classifications = () => {
       <div className="container_1140">
         <Row>
           <Col lg={6} className="position-relative our_back_leaf">
-            <div className="back_shadow our_card p-sm-5 p-3 position-relative z-3">
+            <div className="back_shadow our_card p-sm-5 p-3 position-relative z-3 card_hover overflow-hidden">
               <p className="fw_700 fs_3xl ff_Philosopher clr_white lh_normal">
                 Our <span className="color_purple">Classifications</span>
               </p>

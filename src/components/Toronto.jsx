@@ -26,7 +26,7 @@ const Toronto = () => {
         </div>
         <Row className="pt-5">
           <Col sm={6}>
-            <div className="back_shadow">
+            <div className="back_shadow card_hover overflow-hidden position-relative">
               <div className="d-flex flex-column align-items-center justify-content-center toronto_card py-3 py-sm-5">
                 <ul>
                   <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
@@ -46,7 +46,7 @@ const Toronto = () => {
             </div>
           </Col>
           <Col sm={6} className="pt-3 pt-sm-0">
-            <div className="back_shadow">
+            <div className="back_shadow card_hover overflow-hidden position-relative">
               <div className="d-flex flex-column align-items-center justify-content-center toronto_card py-3 py-sm-5">
                 <ul>
                   <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
