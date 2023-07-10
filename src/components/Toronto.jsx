@@ -6,10 +6,10 @@ import toronto_r from "../assets/img/svg/toronto_r.svg";
 const Toronto = () => {
   return (
     <section className="py-5 position-relative">
-      <span className="position-absolute toronto_l w">
+      <span className="position-absolute toronto_l transisation animation_stem">
         <img src={toronto_l} alt="toronto_l" />
       </span>
-      <span className="position-absolute toronto_r">
+      <span className="position-absolute toronto_r transisation animation_stem">
         <img src={toronto_r} alt="toronto_r" />
       </span>
       <div className="container_1140">
