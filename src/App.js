@@ -10,6 +10,9 @@ import MyFooter from "./components/MyFooter";
 import StoreHours from "./components/StoreHours";
 import { Hero } from "./components/Hero";
 import { Mushrooms } from "./components/Mushrooms";
+import Canada from "./components/Canada";
+import Same from "./components/Same";
+import Feel from "./components/Feel";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
@@ -22,6 +25,9 @@ function App() {
       <ExpressDeliver />
       <StoreHours />
       <MyFooter />
+      <Same />
+      <Canada />
+      <Feel />
     </div>
   );
 }

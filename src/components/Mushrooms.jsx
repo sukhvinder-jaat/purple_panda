@@ -16,6 +16,9 @@ export const Mushrooms = () => {
           options={{
             perPage: 7,
             perMove: 0,
+            interval: 1000,
+            drag: "free",
+            type: "loop",
             breakpoints: {
               1200: {
                 rewind: "true",
@@ -25,7 +28,7 @@ export const Mushrooms = () => {
                 autoplay: true,
                 autoScroll: {
                   drag: "free",
-                  speed: 0.1,
+                  speed: 1,
                   pauseOnHover: false,
                 },
               },
@@ -65,7 +68,6 @@ export const Mushrooms = () => {
                   pauseOnHover: false,
                 },
               },
-              
             },
           }}
         >
