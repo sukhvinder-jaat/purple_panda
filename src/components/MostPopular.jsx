@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import most_1 from "../assets/img/png/most_1.png";
-import most_2 from "../assets/img/png/most_2.png";
-import most_3 from "../assets/img/png/most_3.png";
+import most_1 from "../assets/img/webp/most_1.webp";
+import most_2 from "../assets/img/webp/most_2.webp";
+import most_3 from "../assets/img/webp/most_3.webp";
 export const MostPopular = () => {
   return (
     <div className="bg_mostpopular">

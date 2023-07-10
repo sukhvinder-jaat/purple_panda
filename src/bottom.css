@@ -50,7 +50,7 @@
   margin-top: 55px;
 }
 .bg_potent{
-  background-image: url("../src/assets/img/png/potent-bg.png");
+  background-image: url("../src/assets/img/webp/potent-bg.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -324,7 +324,7 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 }
 @media (max-width:992px) {
     .bg_footer {
-  background-image: url("../src/assets/img/png/footer-bg.png");
+  background-image: url("../src/assets/img/webp/footer-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
