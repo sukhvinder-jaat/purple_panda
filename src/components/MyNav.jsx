@@ -99,22 +99,22 @@ const MyNav = () => {
                           </a>
                         </li>
                         <li>
-                          <Link
-                            to="/New"
-                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
-                            onClick={clickshow}
-                          >
-                            ABOUT
-                          </Link>
-                        </li>
-                        <li>
                           <a
                             href="#"
                             className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
-                            CONTACT
+                            ABOUT
                           </a>
+                        </li>
+                        <li>
+                          <Link
+                            to="/New"
+                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
+                            onClick={clickshow}
+                          >
+                            CONTACT
+                          </Link>
                         </li>
                         <li>
                           <a
