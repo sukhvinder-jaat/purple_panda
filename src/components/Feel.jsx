@@ -6,6 +6,22 @@ import msg from "../assets/img/svg/msg.svg";
 import Button from "./Button";
 
 const Feel = () => {
+  const [myData, setData] = React.useState({
+    Name: "",
+    Last: "",
+    Email: "",
+    number: "",
+  });
+  const userInput = (e) => {
+    const myName = e.target.name;
+    const value = e.target.value;
+    setData({ ...myData, [myName]: value });
+  };
+  const Formsubmission = (i) => {
+    i.preventDefault();
+    setData({ Name: "", Email: "", number: "", Last: "" });
+    console.log(myData);
+  };
   return (
     <section className="py-5">
       <div className="container_1140">
@@ -25,8 +41,12 @@ const Feel = () => {
               </p>
               <Row>
                 <Col sm={4}>
-                  <div className="text-nowrap input_hover">
-                    <img className="pointer" src={call} alt="call" />
+                  <div className="text-nowrap">
+                    <img
+                      className="pointer input_hover"
+                      src={call}
+                      alt="call"
+                    />
                     <a
                       className="ps-2 fw_600 fs_md ff_Montserrat clr_white"
                       href="tel:1-888-726-3219"
@@ -48,49 +68,62 @@ const Feel = () => {
                 </Col>
               </Row>
               <div className="d-flex align-items-center justify-content-between pt-3"></div>
-              <Row className="pt-sm-5 pt-3">
-                <Col sm={6}>
-                  <input
-                    className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
-                    type="text"
-                    placeholder="First name"
-                  />
-                </Col>
-                <Col sm={6}>
-                  <input
-                    className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 mt-sm-0"
-                    type="text"
-                    id="name"
-                    placeholder="Last name"
-                  />
-                </Col>
-                <Col sm={6} className="pt-3">
-                  <input
-                    className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
-                    type="text"
-                    id="email"
-                    placeholder="Email address"
-                  />
-                </Col>
-                <Col sm={6} className="pt-3">
-                  <input
-                    className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Phone number"
-                  />
-                </Col>
-              </Row>
-              <textarea
-                className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 h_100"
-                cols="30"
-                rows="10"
-                placeholder="Message..."
-              ></textarea>
-              <div className="mt-4">
-                <Button textbtn="SUBMIT" />
-              </div>
+              <form onSubmit={Formsubmission}>
+                <Row className="pt-sm-5 pt-3">
+                  <Col sm={6}>
+                    <input
+                      className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
+                      placeholder="First name"
+                      onChange={userInput}
+                      type="text"
+                      name="Name"
+                      value={myData.Name}
+                    />
+                  </Col>
+                  <Col sm={6}>
+                    <input
+                      className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 mt-sm-0"
+                      type="text"
+                      id="name"
+                      onChange={userInput}
+                      placeholder="Last name"
+                      name="Last"
+                      value={myData.Last}
+                    />
+                  </Col>
+                  <Col sm={6} className="pt-3">
+                    <input
+                      className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
+                      type="email"
+                      id="email"
+                      onChange={userInput}
+                      placeholder="Email address"
+                      name="Email"
+                      value={myData.Email}
+                    />
+                  </Col>
+                  <Col sm={6} className="pt-3">
+                    <input
+                      className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
+                      type="number"
+                      id="phone"
+                      name="number"
+                      onChange={userInput}
+                      placeholder="Phone number"
+                      value={myData.number}
+                    />
+                  </Col>
+                </Row>
+                <textarea
+                  className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 h_100"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message..."
+                ></textarea>
+                <div className="mt-4">
+                  <Button textbtn="SUBMIT" />
+                </div>
+              </form>
             </div>
           </Col>
         </Row>
