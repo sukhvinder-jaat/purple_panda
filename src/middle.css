@@ -1,3 +1,20 @@
+/* about */
+.us_img_hover_1:hover p {
+    transition: all 0.5s ease-in-out !important;
+}
+
+.us_img_hover_1:hover p {
+    color: var(--color-clr_purple) !important;
+}
+
+.us_img_hover {
+    transition: all 0.5s linear !important;
+}
+
+.us_img_hover:hover {
+    transform: scale(0.9) !important;
+}
+
 .btn_all {
     padding: 14px 34px;
     border-radius: 40px;
@@ -65,12 +82,39 @@
 }
 
 /* canada */
+.card_hover::before {
+    content: '';
+    background: var(--color-clr_purple);
+    width: 15%;
+    height: 100%;
+    left: -125%;
+    top: 0%;
+    transform: skew(45deg);
+    position: absolute;
+    transition: left 0.7s ease-in-out;
+}
+
+.card_hover:hover::before {
+    left: 150%;
+}
+
+.card_hover {
+    transition: all 0.6s linear !important;
+}
+
+.card_hover:hover,
+.card_hover:active {
+    transition: all 0.6s linear !important;
+    color: var(--color-clr_white);
+    box-shadow: 0px -1px 15px 0 var(--color-clr_dark_blur);
+}
+
 .max_w_980 {
     max-width: 980px;
 }
 
-.canada_border {
-    transition: all 0.5 linear;
+.canada_border svg path {
+    transition: all 0.5s linear !important;
 }
 
 .canada_border:hover svg path {
@@ -163,8 +207,50 @@
     line-height: 105.971%;
 }
 
+
+
+.input_hover img {
+    transition: all 0.4s linear !important;
+}
+
 .input_hover:hover img {
-    transform: translateX(-10px);
+    transform: scale(1.1);
+}
+
+/* contact */
+.contact_bg {
+    background-image: url(../src/assets/img/png/contact-bg-page-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* top */
+.top_btn {
+    width: 50px;
+    border-radius: 50%;
+    transform: rotate(90deg) !important;
+}
+
+.top {
+    animation: star 2.8s linear infinite;
+    z-index: 20;
+
+}
+
+@keyframes star {
+
+    0% {
+        transform: translatey(0) scale(.998);
+    }
+
+    50% {
+        transform: translatey(-7px) scale(1.1023);
+    }
+
+    100% {
+        transform: translatey(0) scale(.998);
+    }
 }
 
 @media (min-width:1200px) {

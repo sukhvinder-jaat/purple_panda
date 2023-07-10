@@ -14,7 +14,7 @@ const Feel = () => {
             <img className="w-100" src={feel} alt="feel" />
           </Col>
           <Col lg={7}>
-            <div className="back_shadow feel_back p-3 p-sm-0 py-sm-5 ps-sm-4 pe-sm-5">
+            <div className="back_shadow feel_back p-3 p-sm-0 py-sm-5 ps-sm-4 pe-sm-5 card_hover overflow-hidden position-relative">
               <p className="fw_700 fs_2xl ff_Philosopher clr_white lh_105">
                 Feel free to <span className="color_purple">contact us</span>
                 anytime you need our help.
@@ -25,8 +25,8 @@ const Feel = () => {
               </p>
               <Row>
                 <Col sm={4}>
-                  <div className="text-nowrap">
-                    <img className="pointer input_hover" src={call} alt="call" />
+                  <div className="text-nowrap input_hover">
+                    <img className="pointer" src={call} alt="call" />
                     <a
                       className="ps-2 fw_600 fs_md ff_Montserrat clr_white"
                       href="tel:1-888-726-3219"
@@ -35,9 +35,9 @@ const Feel = () => {
                     </a>
                   </div>
                 </Col>
-                <Col sm={8} className="d-flex justify-con tent-center">
-                  <div className="text-nowrap mt-2 mt-sm-0">
-                    <img className="pointer input_hover" src={msg} alt="msg" />
+                <Col sm={8} className="d-flex justify-content-center">
+                  <div className="text-nowrap mt-2 mt-sm-0 input_hover">
+                    <img className="pointer" src={msg} alt="msg" />
                     <a
                       className="ps-2 fw_600 fs_md ff_Montserrat clr_white"
                       href="mailto:purplepandagta.info@proton.me"

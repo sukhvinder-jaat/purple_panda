@@ -16,12 +16,16 @@ const Same = () => {
         <span className="position-absolute same_back_effect z-0"></span>
         <Row className="align-items-center">
           <Col lg={5}>
-            <img className="w-100 p-4 z-3 position-relative" src={same_img} alt="same_img" />
+            <img
+              className="w-100 p-4 z-3 position-relative"
+              src={same_img}
+              alt="same_img"
+            />
           </Col>
           <Col lg={7}>
             <Row className=" position-relative z-3">
               <Col sm={6}>
-                <div className="d-flex align-items-end">
+                <div className="d-flex align-items-end input_hover pointer">
                   <img src={same_2} alt="same_2" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     Same Day Delivery
@@ -29,7 +33,7 @@ const Same = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-3 pt-sm-0">
+                <div className="d-flex align-items-end pt-3 pt-sm-0 input_hover pointer">
                   <img src={same_1} alt="same_1" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     Canada Wide Mail Orders
@@ -37,7 +41,7 @@ const Same = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-sm-4 pt-3">
+                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_3} alt="same_3" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     Discreet packaging
@@ -45,7 +49,7 @@ const Same = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-sm-4 pt-3">
+                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_4} alt="same_4" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     19+
@@ -53,7 +57,7 @@ const Same = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-sm-4 pt-3">
+                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_5} alt="same_5" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     Premium Marijuana Buds
@@ -61,7 +65,7 @@ const Same = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-sm-4 pt-3">
+                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_6} alt="same_6" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     Secure Transactions
@@ -69,7 +73,7 @@ const Same = () => {
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-sm-4 pt-3">
+                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer ">
                   <img src={same_7} alt="same_7" />
                   <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
                     Collect Rewards

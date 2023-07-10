@@ -9,8 +9,8 @@ const OurRange = () => {
       <section className="pt-5 pb-4">
         <div className="container_1140 pt-5">
           <Row className="pt-3">
-            <Col lg={12} className="position-relative ">
-              <div className="our_range_box position-relative z-1">
+            <Col lg={12} className="position-relative">
+              <div className="our_range_box position-relative z-1 card_hover overflow-hidden">
                 <p className="ff_Philosopher fw_700 fs_3xl text-center clr_white m-0 lh_normal">
                   Our <span className="color_purple">Range</span>
                 </p>

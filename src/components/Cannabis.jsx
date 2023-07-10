@@ -23,7 +23,7 @@ const Cannabis = () => {
         </div>
         <Row className="pt-5">
           <Col xl={7}>
-            <div className="back_shadow back_card ps-5 py-5 pe-4 border_about position-relative">
+            <div className="back_shadow back_card ps-5 py-5 pe-4 border_about position-relative card_hover overflow-hidden">
               <p className="fw_400 fs_3xl ff_Montserrat clr_white mb-0">
                 Strain <span className="color_purple">Families</span>
               </p>
@@ -58,27 +58,27 @@ const Cannabis = () => {
           <Col xl={5}>
             <div className="d-grid grid_gap">
               <img
-                className="about_1 w-100"
+                className="about_1 w-100 us_img_hover"
                 src={cannabis_1}
                 alt="cannabis_1"
               />
               <img
-                className="about_2 w-100"
+                className="about_2 w-100 us_img_hover"
                 src={cannabis_2}
                 alt="cannabis_2"
               />
               <img
-                className="about_3 w-100"
+                className="about_3 w-100 us_img_hover"
                 src={cannabis_3}
                 alt="cannabis_3"
               />
               <img
-                className="about_4 w-100"
+                className="about_4 w-100 us_img_hover"
                 src={cannabis_4}
                 alt="cannabis_4"
               />
               <img
-                className="about_5 w-100"
+                className="about_5 w-100 us_img_hover"
                 src={cannabis_5}
                 alt="cannabis_5"
               />

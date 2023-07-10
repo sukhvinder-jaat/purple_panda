@@ -73,9 +73,13 @@ export const Mushrooms = () => {
         >
           {/* box_1 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100">
+            <div className="h-100 us_img_hover_1">
               <span>
-                <img src={mushroom1} alt="mushroom1" className="w-100" />
+                <img
+                  src={mushroom1}
+                  alt="mushroom1"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Mushrooms
@@ -84,9 +88,13 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_2 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100">
+            <div className="h-100 us_img_hover_1">
               <span>
-                <img src={mushroom2} alt="mushroom2" className="w-100" />
+                <img
+                  src={mushroom2}
+                  alt="mushroom2"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Extracts
@@ -95,9 +103,13 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 d-flex flex-column justify-content-start align-items-center">
+            <div className="h-100 d-flex flex-column justify-content-start align-items-center us_img_hover_1">
               <span>
-                <img src={mushroom3} alt="mushroom2" className="w-100" />
+                <img
+                  src={mushroom3}
+                  alt="mushroom2"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Vapes & Accessories
@@ -106,9 +118,13 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_4 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100">
+            <div className="h-100 us_img_hover_1">
               <span>
-                <img src={mushroom4} alt="mushroom2" className="w-100" />
+                <img
+                  src={mushroom4}
+                  alt="mushroom2"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 CBD
@@ -117,9 +133,13 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_5 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100">
+            <div className="h-100 us_img_hover_1">
               <span>
-                <img src={mushroom5} alt="mushroom2" className="w-100" />
+                <img
+                  src={mushroom5}
+                  alt="mushroom2"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Edibles
@@ -128,9 +148,13 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_6 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100">
+            <div className="h-100 us_img_hover_1">
               <span>
-                <img src={mushroom6} alt="mushroom2" className="w-100" />
+                <img
+                  src={mushroom6}
+                  alt="mushroom2"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center">
                 Cannabis
@@ -139,9 +163,13 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_7 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100">
+            <div className="h-100 us_img_hover_1">
               <span>
-                <img src={mushroom7} alt="mushroom2" className="w-100" />
+                <img
+                  src={mushroom7}
+                  alt="mushroom2"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className="ff_Philosopher mt-1 text-white fs_xl fw_700 text-center text-nowrap">
                 Bulk Orders
