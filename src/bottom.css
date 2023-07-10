@@ -20,8 +20,14 @@
   padding-left: 34px;
   padding-right: 34px;
 }
+.prices_box {
+  border-radius: 10px;
+  background: rgba(22, 15, 47, 0.5) !important;
+  backdrop-filter: blur(9px) !important;
+  padding: 59px 43px;
+}
 /*=============================================================================== container =================================================================== */
-.store_container{
+.store_container {
   max-width: 596px !important;
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +49,60 @@
   height: 2px;
   margin-top: 55px;
 }
+.bg_potent{
+  background-image: url("../src/assets/img/png/potent-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+/*=============================================================================== preloader =================================================================== */
+.overflow_hidden {
+  overflow: hidden;
+}
+.z_1111111{
+  z-index: 1111111;
+}
+.animation_preloader_2 {
+  animation: preloader 2.5s linear alternate;
+  position: relative;
+}
+@keyframes preloader {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.border_preloader {
+  border: 2px solid white !important;
+}
+.bg_gradient {
+background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !important;
+}
+.animation_preloader {
+  animation: preloaderani 2.5s linear infinite;
+}
+@keyframes preloaderani {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+}
+.animation_preloader_2 {
+  animation: preloader 2.5s linear alternate;
+  position: relative;
+}
+.h_30 {
+  height: 30px;
+}
+.w_60 {
+  width: 60px;
+}
 /*================================================================================== max width  ==============================================================================*/
 .mw_703 {
   max-width: 703px;
@@ -59,12 +119,30 @@
 .mw_600 {
   max-width: 600px;
 }
+.mw_272 {
+  max-width: 272px;
+}
+.mw_543{
+  max-width: 543px;
+}
+.mw_153{
+  max-width: 153px;
+}
 /*===================================================================================== height ============================================================================ */
 .h_291 {
   height: 291px;
 }
 .h_148 {
   height: 148px;
+}
+.h_278 {
+  height: 278px;
+}
+.h_473{
+  height: 473px;
+}
+.h_153{
+  height: 153px;
 }
 /*==================================================================================== line height ======================================================================= */
 .lh_normal {
@@ -80,30 +158,64 @@
 .right_30 {
   right: 30px;
 }
+.left_0{
+  left: 0;
+}
+.left_45{
+  left: 44.5%;
+}
 .top_0 {
   top: 0;
 }
 .left_14 {
   left: 14%;
 }
+.top_-200{
+  top: -200px;
+}
+.left_-300{
+  left: -300px;
+}
 .top_-35 {
   top: -35px;
+}
+.top_80{
+  top: 80px;
 }
 .right_-105 {
   right: -105px;
 }
-.top_-50{
+.top_-50 {
   top: -50px;
+}
+.top_-50 {
+  top: -50px;
+}
+.right_130 {
+  right: 130px;
 }
 /*================================================================================ padding ===================================================================== */
 .pt_35 {
   padding-top: 35px;
 }
-.pt_14{
+.pt_14 {
   padding-top: 14px;
 }
-.pb_30{
+.pb_30 {
   padding-bottom: 30px;
+}
+.pb_17 {
+  padding-bottom: 17px;
+}
+.pt_67{
+  padding-top: 67px;
+}
+.pt_0{
+  padding-top: 0;
+}
+/*=============================================================================== margin ===================================================================== */
+.mt_43{
+  margin-top: 43px;
 }
 /*============================================================================== before after ==============================================================*/
 .line:after {
@@ -113,6 +225,28 @@
   left: 1px;
   height: 95%;
   border: 2px solid #ba20f7 !important;
+}
+.bottom_line:before {
+  content: "";
+  position: absolute;
+  left: -25%;
+  bottom: 0px;
+  height: 1px;
+  width: 272px !important;
+  background: rgba(221, 34, 230, 0.59);
+}
+.gif_after::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  background-image: url('./assets/img/gif/number_gif.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 133px;
+  height: 133px;
+  z-index: 11;
 }
 /*================================================================================ animations ======================================================================== */
 .animation_stem {
@@ -140,7 +274,7 @@
   }
 }
 .express_cir_ani {
-  animation: expresscircle 1s linear infinite alternate;
+  animation: expresscircle 2s linear infinite alternate;
 }
 @keyframes expresscircle {
   0% {
@@ -156,6 +290,13 @@
 .transisation {
   transition: all 0.2s linear !important;
 }
+/*========================================================================== transform translate========================================================================= */
+.trans_-70y{
+  transform: translateY(-70px);
+}
+.trans_-300y_x_191{
+  transform: translateY(-300px) translateX(191px);
+}
 /*==================================================================================== shadow circles ==================================================================== */
 .circle_shadow {
   background-color: #9f00ff !important;
@@ -163,12 +304,31 @@
   width: 210px;
   height: 210px;
 }
-
+.shadow_circle_prices {
+  width: 250px;
+  height: 250px;
+   background-color: #9f00ff !important;
+  filter: blur(134.5px);
+}
 /*==================================================================================== media screen ====================================================================== */
 @media (max-width: 1400px) {
   .left_14 {
     left: 1%;
   }
+  .bg_potent{
+  background-image: url("../src/assets/img/png/potent-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+}
+@media (max-width:992px) {
+    .bg_footer {
+  background-image: url("../src/assets/img/png/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
 @media (min-width: 992px) {
   .position_absolute {
@@ -180,4 +340,42 @@
   .h_563 {
     height: 563px;
   }
+}
+@media (max-width:768px) {
+.fs_48xl{
+  font-size: var(--fs-3xl) !important;
+}
+}
+@media (max-width:576px) {
+  .min_w_320{
+    min-width: 320px;
+  }
+  .h_320{
+    height: 320px;
+  }
+  .gif_after::after{
+  content: '';
+  position: absolute;
+  top: 52%;
+  left: 38%;
+  background-image: url('./assets/img/gif/number_gif.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80px ;
+  height: 80px ;
+  z-index: 11;
+}
+.pt_sm_35{
+  padding-top: 35px;
+}
+}
+@media (min-width: 576px) {
+  .h_445 {
+    height: 445px;
+  }
+  .mw_412 {
+    max-width: 412px;
+  }
+
 }
