@@ -14,9 +14,13 @@ import { MostPopular } from "./components/MostPopular";
 import { Latest } from "./components/Latest";
 import { First } from "./components/First";
 import { Classifications } from "./components/Classifications";
+import Prices from "./components/Prices";
+import Potent from "./components/Potent";
+import Preloader from "./components/Preloader";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
+      <Preloader/>
       <Hero />
       <MostPopular />
       <Classifications />
@@ -24,6 +28,8 @@ function App() {
       <First />
       <About />
       <Toronto />
+      <Prices />
+      <Potent />
       <Cannabis />
       <Mushrooms />
       <OurRange />
