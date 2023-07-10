@@ -184,6 +184,9 @@
     clip-path: circle(75%);
     background-color: var(--bs-black) !important;
   }
+  .overflow_hidden_xl {
+    overflow: hidden !important;
+  }
   .vh_100_1200 {
     min-height: 100vh;
   }

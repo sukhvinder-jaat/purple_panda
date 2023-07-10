@@ -13,13 +13,13 @@ const MyNav = () => {
     setFirst(!First);
   }
   if (!First) {
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.add("overflow_hidden_xl");
   } else {
-    document.body.classList.remove("overflow-hidden");
+    document.body.classList.remove("overflow_hidden_xl");
   }
   return (
     <>
-      <div className="flex-grow-0">
+      <div className="flex-grow-0 overflow-hidden">
         <div className="bg_nav_top py-3 d-flex align-items-center justify-content-center position-relative z_10">
           <span className="d-flex align-items-center">
             <img src={gift} alt="gift" className="w-100" />
