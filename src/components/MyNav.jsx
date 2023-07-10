@@ -26,7 +26,7 @@ const MyNav = () => {
           </span>
           <p className="d-md-block d-none mb-0 text-white fs_md fw_800 ff_Montserrat ms-3">
             Black Friday
-            <span className="fw_400">
+            <span className="fw_400 ps-2">
               savings are here ,save up to 10% off on coupon code
             </span>
           </p>
