@@ -2,6 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import first_1 from "../assets/img/png/first_1.png";
+import first_2 from "../assets/img/png/first_2.png";
+import first_3 from "../assets/img/png/first_3.png";
 export const First = () => {
   return (
     <div className="first_bg py-5">
@@ -48,7 +50,7 @@ export const First = () => {
           <SplideSlide className=" d-flex justify-content-center px-2">
             <div>
               <span>
-                <img src={first_1} alt="first_1" className="w-100" />
+                <img src={first_2} alt="first_1" className="w-100" />
               </span>
               <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
                 Purple Panda’s
@@ -60,7 +62,7 @@ export const First = () => {
           <SplideSlide className=" d-flex justify-content-center px-2">
             <div>
               <span>
-                <img src={first_1} alt="first_1" className="w-100" />
+                <img src={first_3} alt="first_1" className="w-100" />
               </span>
               <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3 px-2">
                 <span className=" color_purple">Collect rewards</span> points
