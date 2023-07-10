@@ -59,8 +59,8 @@ const Canada = () => {
         >
           {/* box_1 */}
           <SplideSlide className="pt-5 mt-5 p-3">
-            <div className="h-100 back_shadow canada_border">
-              <div className="position-relative d-flex justify-content-center">
+            <div className="h-100 back_shadow canada_border ">
+              <div className="position-relative d-flex justify-content-center ">
                 <span className="position-relative">
                   <img
                     className="canada_1 w-100"
@@ -72,7 +72,7 @@ const Canada = () => {
                   </p>
                 </span>
               </div>
-              <div className="canada_m px-3 px-xl-4 pb-2 pb-xl-5">
+              <div className="canada_m px-3 px-xl-4 pb-2 pb-xl-5 canada_hover">
                 <svg
                   width="77"
                   height="77"
@@ -108,7 +108,7 @@ const Canada = () => {
                   </p>
                 </span>
               </div>
-              <div className="canada_m px-3 px-xl-4 pb-2 pb-xl-5">
+              <div className="canada_m px-3 px-xl-4 pb-2 pb-xl-5 canada_hover">
                 <svg
                   width="71"
                   height="73"
@@ -145,7 +145,7 @@ const Canada = () => {
                   </p>
                 </span>
               </div>
-              <div className="canada_m px-3 px-xl-4 pb-2 pb-xl-5">
+              <div className="canada_m px-3 px-xl-4 pb-2 pb-xl-5 canada_hover">
                 <svg
                   width="70"
                   height="73"

@@ -82,6 +82,15 @@
 }
 
 /* canada */
+.canada_hover p {
+    transition: all 0.5s linear !important;
+    opacity: 20 !important;
+}
+
+.canada_hover:hover p {
+    color: var(--color-clr_purple) !important;
+}
+
 .card_hover::before {
     content: '';
     background: var(--color-clr_purple);

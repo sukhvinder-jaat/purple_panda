@@ -19,7 +19,7 @@ const BackToTop = () => {
         {backTop ? (
           <img
             onClick={moveToTop}
-            className="position-fixed bottom-0 end-0 me-4 mb-4 top_btn top"
+            className="position-fixed bottom-0 end-0 me-4 mb-4 top_btn top pointer"
             src={top}
             alt=""
           />
