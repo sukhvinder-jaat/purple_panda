@@ -47,7 +47,7 @@ const MyFooter = () => {
           </div>
         </div>
         <div className="footer_line"></div>
-        <div className="d-flex align-items-center justify-content-center pt_14 pb_30">
+        <div className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0">
           <svg
             width="9"
             height="9"
