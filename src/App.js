@@ -20,7 +20,6 @@ import Preloader from "./components/Preloader";
 import Canada from "./components/Canada";
 import Same from "./components/Same";
 import Feel from "./components/Feel";
-import Contact from "./components/Contact";
 import BackToTop from "./components/BackToTop";
 function App() {
   return (
@@ -42,9 +41,6 @@ function App() {
       <First />
       <StoreHours />
       <MyFooter />
-      <Feel />
-      <Contact />
-      <BackToTop />
     </div>
   );
 }
