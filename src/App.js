@@ -17,6 +17,9 @@ import { Classifications } from "./components/Classifications";
 import Prices from "./components/Prices";
 import Potent from "./components/Potent";
 import Preloader from "./components/Preloader";
+import Canada from "./components/Canada";
+import Same from "./components/Same";
+import Feel from "./components/Feel";
 function App() {
   return (
     <div className="App bg_backblack overflow-hidden">
@@ -36,6 +39,9 @@ function App() {
       <ExpressDeliver />
       <StoreHours />
       <MyFooter />
+      <Same />
+      <Canada />
+      <Feel />
     </div>
   );
 }

@@ -53,14 +53,120 @@
     bottom: 8%;
     left: 39%;
 }
+
 .toronto_r {
     bottom: 20%;
     right: 6%;
 }
+
 /*  */
-.max_w_800{
+.max_w_800 {
     max-width: 800px;
 }
+
+/* canada */
+.max_w_980 {
+    max-width: 980px;
+}
+
+.canada_border {
+    transition: all 0.5 linear;
+}
+
+.canada_border:hover svg path {
+    fill: var(--color-clr_white) !important;
+}
+
+.canada_border {
+    border-radius: 28.051px;
+    border: 1.169px solid var(--color-clr_dark_blur);
+    backdrop-filter: blur(6.5px);
+}
+
+.canada_bg {
+    background-image: url(../src/assets/img/png/canada_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.canada_gradient {
+    background: linear-gradient(180deg, #07031D 10%, rgba(7, 3, 29, 0.53) 50%);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    opacity: 0.9;
+}
+
+.mt_-1 {
+    margin-top: -1px;
+}
+
+.text_circle {
+    top: -15px;
+    left: 58px;
+}
+
+.canada_m {
+    margin-top: -50px !important;
+}
+
+.canada_1 {
+    transform: translateY(-70px) !important;
+}
+
+.visible_slider .splide__track {
+    overflow: visible !important;
+}
+
+/* same */
+.same_back_effect {
+    height: 230px;
+    width: 230px;
+    border-radius: 331.012px;
+    background: #9F00FF;
+    filter: blur(121.9757080078125px);
+    left: 100px !important;
+    top: 70px;
+}
+
+/* feel */
+.feel_back {
+    border-radius: 10px;
+    border: 1px solid var(--color-clr_dark_blur);
+    background: rgba(22, 15, 47, 0.50);
+    backdrop-filter: blur(9px);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.input_border {
+    border-radius: 4px;
+    border: 2px solid var(--color-clr_dark_blur) !important;
+    backdrop-filter: blur(9px);
+}
+
+.h_100 {
+    height: 100px;
+}
+
+::placeholder {
+    color: var(--color-clr_white) !important;
+    font-family: Montserrat !important;
+    font-size: var(--fs-md) !important;
+    font-weight: 400 !important;
+    opacity: 4 !important;
+}
+
+.lh_105 {
+    line-height: 105.971%;
+}
+
+.input_hover:hover img {
+    transform: translateX(-10px);
+}
+
 @media (min-width:1200px) {
     .grid_gap {
         gap: 2%;
