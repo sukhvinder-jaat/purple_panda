@@ -131,7 +131,7 @@
 .our_back_leaf::before {
   content: "";
   position: absolute;
-  background-image: url(../src/assets/img/png/our_box_bg.png);
+  background-image: url(../src/assets/img/webp//our_box_bg.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 193px;

@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import star from "../assets/img/svg/star.svg";
-import back_leaf from "../assets/img/png/our_box_bg.png";
 
 export const Classifications = () => {
   return (
