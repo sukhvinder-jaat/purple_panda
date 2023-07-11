@@ -8,12 +8,18 @@ export const Latest = () => {
   return (
     <div className="latest_bg py-5">
       <Container className="container_1140 pt-sm-5 pt-3">
-        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-lg-5 pb-4 lh_normal">
+        <p
+          className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-lg-5 pb-4 lh_normal"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
           Latest <span className="color_purple">Blogs</span> And
           <span className="color_purple"> News</span>
         </p>
 
-        <Splide className="pt-2 mb-5"
+        <Splide
+          className="pt-2 mb-5"
           options={{
             perPage: 3,
             dots: "true",
@@ -35,11 +41,16 @@ export const Latest = () => {
         >
           {/* box_1 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="most_box p-2">
+            <div
+              className="most_box p-2 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <span>
-                <img src={blog_1} alt="blog_1" className="w-100" />
+                <img src={blog_1} alt="blog_1" className="w-100 z-3" />
               </span>
-              <div className="ps-4 pt-3 pe-2">
+              <div className="ps-4 pt-3 pe-2 pb-3">
                 <p className="text-white ff_Montserrat fw_400 fs_xsm mb-0 pb-2">
                   12 Dec 2022
                 </p>
@@ -50,19 +61,24 @@ export const Latest = () => {
                   Nulla vitae imperdiet molestie pulvinar neque. Urna senectus
                   pharetra odio sed senectus sed morbi suspendisse convallis.
                 </p>
-                <p className="ff_Montserrat fw_400 fs_sm color_purple">
+                <a className="ff_Montserrat fw_400 fs_sm color_purple" href="#">
                   READ MORE....
-                </p>
+                </a>
               </div>
             </div>
           </SplideSlide>
           {/* box_2 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="most_box p-2">
+            <div
+              className="most_box p-2 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="600"
+            >
               <span>
-                <img src={blog_2} alt="blog_1" className="w-100" />
+                <img src={blog_2} alt="blog_1" className="w-100 z-3" />
               </span>
-              <div className="ps-4 pt-3">
+              <div className="ps-4 pt-3 pb-3">
                 <p className="text-white ff_Montserrat fw_400 fs_xsm mb-0 pb-2">
                   15 Nov 2022
                 </p>
@@ -74,19 +90,24 @@ export const Latest = () => {
                   iaculis cras massa auctor turpis. Eget massa imperdiet sit
                   massa. Hac sit nec.
                 </p>
-                <p className="ff_Montserrat fw_400 fs_sm color_purple">
+                <a className="ff_Montserrat fw_400 fs_sm color_purple" href="#">
                   READ MORE....
-                </p>
+                </a>
               </div>
             </div>
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="most_box p-2">
+            <div
+              className="most_box p-2 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="900"
+            >
               <span>
-                <img src={blog_3} alt="blog_1" className="w-100" />
+                <img src={blog_3} alt="blog_1" className="w-100 z-3" />
               </span>
-              <div className="ps-4 pt-3">
+              <div className="ps-4 pt-3 pb-3">
                 <p className="text-white ff_Montserrat fw_400 fs_xsm mb-0 pb-2">
                   22 Dec 2022
                 </p>
@@ -98,9 +119,9 @@ export const Latest = () => {
                   urna etiam curabitur ac in viverra tortor proin. Dui viverra
                   eu tristique in eget ut purus.
                 </p>
-                <p className="ff_Montserrat fw_400 fs_sm color_purple">
+                <a className="ff_Montserrat fw_400 fs_sm color_purple" href="#">
                   READ MORE....
-                </p>
+                </a>
               </div>
             </div>
           </SplideSlide>
