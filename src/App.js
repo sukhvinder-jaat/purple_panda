@@ -21,13 +21,7 @@ import Canada from "./components/Canada";
 import Same from "./components/Same";
 import Feel from "./components/Feel";
 import BackToTop from "./components/BackToTop";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 function App() {
-  useEffect(() => {
-    AOS.init({ once: true, disable: "mobile" });
-  }, []);
   return (
     <div className="App bg_backblack overflow-hidden">
       <Hero />
