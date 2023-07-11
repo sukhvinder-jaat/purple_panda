@@ -32,6 +32,12 @@
   background: var(--color-back_shadow);
   backdrop-filter: blur(9px);
 }
+.all_btn_hover {
+  transition: 0.4s linear;
+}
+.all_btn_hover:hover {
+  box-shadow: 0px 1px 41px 7px #d521e9;
+}
 .z_10 {
   z-index: 10;
 }
