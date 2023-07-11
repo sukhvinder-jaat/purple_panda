@@ -3,12 +3,23 @@ import { Link } from "react-router-dom";
 import footerlogo from "../assets/img/webp/footer-page-logo.webp";
 
 const MyFooter = () => {
+    const [backTop, setBackTop] = React.useState(false);
+    const moveToTop = () => {
+      document.documentElement.scrollTop = 0;
+    };
+    window.addEventListener("scroll", () => {
+      if (document.documentElement.scrollTop > 100) {
+        setBackTop(true);
+      } else {
+        setBackTop(false);
+      }
+    });
   return (
     <>
       <section className="bg_footer position-relative">
         <div className="container_1140">
           <div className="d-flex justify-content-center pt_35">
-            <Link to="/">
+            <Link to="/" onClick={moveToTop}>
               <img
                 src={footerlogo}
                 alt="footer page logo"
@@ -32,18 +43,19 @@ const MyFooter = () => {
               >
                 SHOP
               </a>
-              <Link
-                to="/New"
+              <a
+                href="#"
                 className="ms-4 me-3 clr_white ff_montserrat hover_line position-relative fw_600 fs_md mb-0 "
               >
                 ABOUT
-              </Link>
-              <a
-                href="#"
+              </a>
+              <Link
+                to="/New"
+                onClick={moveToTop}
                 className="ms-4 ff_montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 "
               >
                 CONTACT
-              </a>
+              </Link>
             </div>
           </div>
         </div>

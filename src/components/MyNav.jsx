@@ -23,7 +23,9 @@ const MyNav = () => {
       <div className="flex-grow-0 overflow-hidden">
         <div className="bg_nav_top py-3 d-flex align-items-center justify-content-center position-relative z_10">
           <span className="d-flex align-items-center">
-            <img src={gift} alt="gift" className="w-100" />
+            <a href="#">
+              <img src={gift} alt="gift" className="w-100" />
+            </a>
           </span>
           <p className="d-md-block d-none mb-0 text-white fs_md fw_800 ff_Montserrat ms-3">
             Black Friday
@@ -71,11 +73,13 @@ const MyNav = () => {
                 <div className="nav_container">
                   <div className="d-flex align-items-center flex-xl-row flex-column justify-content-center justify-content-xl-between  vh_100_1200">
                     <span className="d-xl-block d-none me-3">
-                      <img
-                        src={nav_btn}
-                        alt="nav_logo"
-                        className="w-100 me-3"
-                      />
+                      <a href="#">
+                        <img
+                          src={nav_btn}
+                          alt="nav_logo"
+                          className="w-100 me-3"
+                        />
+                      </a>
                     </span>
                     {/* option */}
                     <div className="d-flex align-items-center">
