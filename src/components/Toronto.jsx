@@ -13,7 +13,12 @@ const Toronto = () => {
         <img src={toronto_r} alt="toronto_r" />
       </span>
       <div className="container_1140">
-        <div className="text-center d-flex flex-column align-items-center">
+        <div
+          className="text-center d-flex flex-column align-items-center"
+          data-aos="flip-down"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
           <p className=" fw_600 fs_xl ff_Montserrat clr_white max_w_630">
             We’re based in both the
             <span className="color_purple"> Greater Toronto Area</span>, with
@@ -29,16 +34,36 @@ const Toronto = () => {
             <div className="back_shadow card_hover overflow-hidden position-relative">
               <div className="d-flex flex-column align-items-center justify-content-center toronto_card py-3 py-sm-5">
                 <ul>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
                     Mississauga
                   </li>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="600"
+                  >
                     Oakville
                   </li>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="1200"
+                  >
                     Brampton
                   </li>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="1500"
+                  >
                     Brampton
                   </li>
                 </ul>
@@ -49,16 +74,36 @@ const Toronto = () => {
             <div className="back_shadow card_hover overflow-hidden position-relative">
               <div className="d-flex flex-column align-items-center justify-content-center toronto_card py-3 py-sm-5">
                 <ul>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
                     Toronto
                   </li>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="600"
+                  >
                     Vaughan
                   </li>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="900"
+                  >
                     Markham
                   </li>
-                  <li className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2">
+                  <li
+                    className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-2 pointer"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="1200"
+                  >
                     Richmond
                   </li>
                 </ul>

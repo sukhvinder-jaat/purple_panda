@@ -20,6 +20,8 @@ const Same = () => {
               className="w-100 p-4 z-3 position-relative"
               src={same_img}
               alt="same_img"
+              data-aos="fade-right"
+              data-aos-duration="3000"
             />
           </Col>
           <Col lg={7}>
@@ -27,7 +29,12 @@ const Same = () => {
               <Col sm={6}>
                 <div className="d-flex align-items-end input_hover pointer">
                   <img src={same_2} alt="same_2" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
                     Same Day Delivery
                   </p>
                 </div>
@@ -35,7 +42,12 @@ const Same = () => {
               <Col sm={6}>
                 <div className="d-flex align-items-end pt-3 pt-sm-0 input_hover pointer">
                   <img src={same_1} alt="same_1" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="1500"
+                  >
                     Canada Wide Mail Orders
                   </p>
                 </div>
@@ -43,7 +55,12 @@ const Same = () => {
               <Col sm={6}>
                 <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_3} alt="same_3" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="600"
+                  >
                     Discreet packaging
                   </p>
                 </div>
@@ -51,7 +68,12 @@ const Same = () => {
               <Col sm={6}>
                 <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_4} alt="same_4" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="1800"
+                  >
                     19+
                   </p>
                 </div>
@@ -59,7 +81,12 @@ const Same = () => {
               <Col sm={6}>
                 <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_5} alt="same_5" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="900"
+                  >
                     Premium Marijuana Buds
                   </p>
                 </div>
@@ -67,15 +94,25 @@ const Same = () => {
               <Col sm={6}>
                 <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_6} alt="same_6" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="2100"
+                  >
                     Secure Transactions
                   </p>
                 </div>
               </Col>
               <Col sm={6}>
-                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer ">
+                <div className="d-flex align-items-end pt-sm-4 pt-3 input_hover pointer">
                   <img src={same_7} alt="same_7" />
-                  <p className="fw_600 fs_md ff_Montserrat clr_white ps-2">
+                  <p
+                    className="fw_600 fs_md ff_Montserrat clr_white ps-2"
+                    data-aos="fade-right"
+                    data-aos-duration="3000"
+                    data-aos-delay="1200"
+                  >
                     Collect Rewards
                   </p>
                 </div>

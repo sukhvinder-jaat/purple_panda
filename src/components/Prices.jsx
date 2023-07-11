@@ -8,21 +8,41 @@ const Prices = () => {
     <>
       <section className="py-5 position-relative">
         <div className="container_1140 py-5">
-          <div className="prices_box">
+          <div
+            className="prices_box"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
               <Col lg={7}>
-                <p className="ff_Philosopher fw_700 fs_3xl clr_white mb-0 lh_normal pb-1 pt-4 pt-lg-0">
-                  High<span className="color_purple"> Thoughts</span>, Low{" "}
+                <p
+                  className="ff_Philosopher fw_700 fs_3xl clr_white mb-0 lh_normal pb-1 pt-4 pt-lg-0"
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                  data-aos-delay="300"
+                >
+                  High<span className="color_purple"> Thoughts</span>, Low
                   <span className="color_purple">Prices</span>
                 </p>
-                <p className="ff_Montserrat fw_400 fs_md clr_white pt-2 pb-5 ">
+                <p
+                  className="ff_Montserrat fw_400 fs_md clr_white pt-2 pb-5"
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                  data-aos-delay="600"
+                >
                   We pride ourselves on supplying premium, top-shelf weed
                   without the top-shelf markups. Some dispensaries will charge
                   an arm and a leg for the newest “flavors”, but we believe in
                   fair, affordable prices for good products at every level of
                   quality and breed.
                 </p>
-                <Button textbtn="GIVE PURPLE PANDA A GO" />
+                <div
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                  data-aos-delay="900"
+                >
+                  <Button textbtn="GIVE PURPLE PANDA A GO" />
+                </div>
               </Col>
               <Col lg={5}>
                 <div className="position_absolute z-1 top_-50 right_10">

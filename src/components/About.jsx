@@ -13,11 +13,25 @@ const About = () => {
       <div className="container_1140">
         <Row>
           <Col xl={7}>
-            <div className="back_shadow back_card p-4 p-sm-5 border_about position-relative card_hover overflow-hidden">
-              <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0">
+            <div
+              className="back_shadow back_card p-4 p-sm-5 border_about position-relative card_hover overflow-hidden"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              <p
+                className="fw_400 fs_3xl ff_Philosopher clr_white mb-0"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+                data-aos-delay="300"
+              >
                 About <span className="color_purple">Us</span>
               </p>
-              <p className="fw_400 fs_md ff_Montserrat clr_white mb-0">
+              <p
+                className="fw_400 fs_md ff_Montserrat clr_white mb-0"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+                data-aos-delay="600"
+              >
                 Purple Panda is a Canadian online cannabis dispensary with a
                 passion for good weed and even better customer service. We all
                 remember the days of waiting for scary strangers on street
@@ -25,7 +39,12 @@ const About = () => {
                 how we provide an easy, convenient, and user-friendly experience
                 to our clients.
               </p>
-              <p className="fw_400 fs_md ff_Montserrat clr_white">
+              <p
+                className="fw_400 fs_md ff_Montserrat clr_white"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+                data-aos-delay="600"
+              >
                 We specialize in high-quality cannabis for both recreational and
                 medical purposes, while also making sure that you’re getting the
                 best bud for your buck! Along with all the different strains of
@@ -33,22 +52,47 @@ const About = () => {
                 vapes, CBD, extracts, and even buy magic mushrooms online from
                 our store.
               </p>
-              <div className="mt-5">
+              <div
+                className="mt-5"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+                data-aos-delay="900"
+              >
                 <Button textbtn="READ MORE" />
               </div>
             </div>
           </Col>
           <Col xl={5}>
-            <div className="d-grid grid_gap">
+            <div
+              className="d-grid grid_gap"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
               <img
                 className="about_1 w-100 us_img_hover"
                 src={about_1}
                 alt="about_1"
               />
-              <img className="about_2 w-100 us_img_hover" src={about_2} alt="about_2" />
-              <img className="about_3 w-100 us_img_hover" src={about_3} alt="about_3" />
-              <img className="about_4 w-100 us_img_hover" src={about_4} alt="about_4" />
-              <img className="about_5 w-100 us_img_hover" src={about_5} alt="about_5" />
+              <img
+                className="about_2 w-100 us_img_hover"
+                src={about_2}
+                alt="about_2"
+              />
+              <img
+                className="about_3 w-100 us_img_hover"
+                src={about_3}
+                alt="about_3"
+              />
+              <img
+                className="about_4 w-100 us_img_hover"
+                src={about_4}
+                alt="about_4"
+              />
+              <img
+                className="about_5 w-100 us_img_hover"
+                src={about_5}
+                alt="about_5"
+              />
             </div>
           </Col>
         </Row>

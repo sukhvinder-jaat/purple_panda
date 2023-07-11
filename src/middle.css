@@ -102,6 +102,7 @@
     transform: skew(45deg);
     position: absolute;
     transition: left 0.7s ease-in-out;
+    z-index: -1;
 }
 
 .card_hover:hover::before {
@@ -246,6 +247,15 @@
     animation: star 2.8s linear infinite;
     z-index: 20;
 
+}
+
+/* ........ */
+.latest_hover span img {
+    transition: all 0.5s linear ;
+}
+
+.latest_hover:hover span img {
+    transform: scale(0.9);
 }
 
 @keyframes star {

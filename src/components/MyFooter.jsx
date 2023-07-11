@@ -16,14 +16,24 @@ const MyFooter = () => {
               />
             </a>
           </div>
-          <div className="d-flex justify-content-center">
+          <div
+            className="d-flex justify-content-center"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            data-aos-delay="300"
+          >
             <p className="ff_montserrat fw_400 fs_md clr_white m-0 pt-4 mw_600 text-center">
               Tempor cras et scelerisque bibendum. Sapien proin pharetra iaculis
               cras massa auctor turpis. Eget massa imperdiet sit massa. Hac sit
               nec.
             </p>
           </div>
-          <div className="d-flex justify-content-center pt-4">
+          <div
+            className="d-flex justify-content-center pt-4"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            data-aos-delay="900"
+          >
             <div className="d-flex justify-content-center align-items-center">
               <a
                 href="#"
@@ -31,23 +41,28 @@ const MyFooter = () => {
               >
                 SHOP
               </a>
-              <Link
-                to="/New"
-                className="ms-4 me-3 clr_white ff_montserrat hover_line position-relative fw_600 fs_md mb-0 "
-              >
-                ABOUT
-              </Link>
               <a
                 href="#"
                 className="ms-4 ff_montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 "
               >
-                CONTACT
+                ABOUT
               </a>
+              <Link
+                to="/New"
+                className="ms-4 me-3 clr_white ff_montserrat hover_line position-relative fw_600 fs_md mb-0 "
+              >
+                CONTACT
+              </Link>
             </div>
           </div>
         </div>
         <div className="footer_line"></div>
-        <div className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0">
+        <div
+          className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          data-aos-delay="900"
+        >
           <svg
             width="9"
             height="9"

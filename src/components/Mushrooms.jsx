@@ -73,7 +73,12 @@ export const Mushrooms = () => {
         >
           {/* box_1 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div
+              className="h-100 us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <span>
                 <img
                   src={mushroom1}
@@ -88,7 +93,12 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_2 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div
+              className="h-100 us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="600"
+            >
               <span>
                 <img
                   src={mushroom2}
@@ -103,7 +113,12 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 d-flex flex-column justify-content-start align-items-center us_img_hover_1">
+            <div
+              className="h-100 d-flex flex-column justify-content-start align-items-center us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="900"
+            >
               <span>
                 <img
                   src={mushroom3}
@@ -118,7 +133,12 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_4 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div
+              className="h-100 us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="1200"
+            >
               <span>
                 <img
                   src={mushroom4}
@@ -133,7 +153,12 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_5 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div
+              className="h-100 us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="1500"
+            >
               <span>
                 <img
                   src={mushroom5}
@@ -148,7 +173,12 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_6 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div
+              className="h-100 us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="1800"
+            >
               <span>
                 <img
                   src={mushroom6}
@@ -163,7 +193,12 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_7 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div
+              className="h-100 us_img_hover_1"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="2100"
+            >
               <span>
                 <img
                   src={mushroom7}

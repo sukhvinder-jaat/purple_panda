@@ -36,9 +36,17 @@ export const First = () => {
         >
           {/* box_1 */}
           <SplideSlide className=" d-flex justify-content-center px-2">
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <span>
-                <img src={first_1} alt="first_1" className="w-100" />
+                <img
+                  src={first_1}
+                  alt="first_1"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
                 <span className=" color_purple">20% Off</span> For First Time
@@ -48,9 +56,17 @@ export const First = () => {
           </SplideSlide>
           {/* box_2 */}
           <SplideSlide className=" d-flex justify-content-center px-2">
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <span>
-                <img src={first_2} alt="first_1" className="w-100" />
+                <img
+                  src={first_2}
+                  alt="first_1"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
                 Purple Panda’s
@@ -60,9 +76,17 @@ export const First = () => {
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className=" d-flex justify-content-center px-2">
-            <div>
+            <div
+              data-aos="flip-left"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <span>
-                <img src={first_3} alt="first_1" className="w-100" />
+                <img
+                  src={first_3}
+                  alt="first_1"
+                  className="w-100 us_img_hover"
+                />
               </span>
               <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3 px-2">
                 <span className=" color_purple">Collect rewards</span> points
