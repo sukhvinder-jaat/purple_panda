@@ -11,7 +11,7 @@ const OurRange = () => {
           <Row className="pt-3">
             <Col lg={12} className="position-relative">
               <div
-                className="our_range_box position-relative z-1 card_hover overflow-hidden"
+                className="our_range_box back_shadow position-relative z-1 card_hover overflow-hidden"
                 data-aos="fade-left"
                 data-aos-duration="3000"
               >

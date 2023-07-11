@@ -17,7 +17,7 @@ const StoreHours = () => {
             <div className="d-flex align-items-center flex-column flex-sm-row justify-content-between">
               <div className="mw_272 bottom_line position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="300"
@@ -27,7 +27,7 @@ const StoreHours = () => {
               </div>
               <div className="mw_272 bottom_line pt_0 pt_sm_35 position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="300"
@@ -39,7 +39,7 @@ const StoreHours = () => {
             <div className="d-flex align-items-center flex-column flex-sm-row justify-content-between pt_35">
               <div className="mw_272 bottom_line position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="600"
@@ -49,7 +49,7 @@ const StoreHours = () => {
               </div>
               <div className="mw_272 bottom_line pt_0 pt_sm_35 position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="600"
@@ -61,7 +61,7 @@ const StoreHours = () => {
             <div className="d-flex align-items-center flex-column flex-sm-row justify-content-between pt_35">
               <div className="mw_272 bottom_line position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="900"
@@ -71,7 +71,7 @@ const StoreHours = () => {
               </div>
               <div className="mw_272 bottom_line pt_0 pt_sm_35 position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="900"
@@ -83,7 +83,7 @@ const StoreHours = () => {
             <div className="d-flex align-items-center justify-content-center pt_35">
               <div className="mw_272 bottom_line position-relative">
                 <p
-                  className="ff_montserrat fw_600 clr_white fs_xl"
+                  className="ff_Montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                   data-aos-delay="1200"

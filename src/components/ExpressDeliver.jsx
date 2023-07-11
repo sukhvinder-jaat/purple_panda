@@ -25,7 +25,7 @@ const ExpressDeliver = () => {
             </Col>
             <Col lg={5}>
               <div
-                className="express_delivery_box position-relative line card_hover overflow-hidden"
+                className="express_delivery_box back_shadow position-relative line card_hover overflow-hidden"
                 data-aos="fade-left"
                 data-aos-duration="3000"
                 data-aos-delay="300"

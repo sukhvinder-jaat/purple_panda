@@ -1,6 +1,28 @@
+.mushrooms_shadow {
+    left: -20px;
+    top: 50px;
+}
+
+.canada_shadow {
+    right: -20px;
+    bottom: -40px;
+}
+.most_shadow{
+    left: -20px;
+    top: 0;
+}
+
 /* about */
 .us_img_hover_1 p {
     transition: all 0.5s ease-in-out !important;
+}
+
+.all_shadow {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-color: var(--color-clr_purple);
+    filter: blur(134px) !important;
 }
 
 .us_img_hover_1:hover p {
@@ -251,7 +273,7 @@
 
 /* ........ */
 .latest_hover span img {
-    transition: all 0.5s linear ;
+    transition: all 0.5s linear;
 }
 
 .latest_hover:hover span img {

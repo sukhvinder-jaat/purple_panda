@@ -35,7 +35,7 @@ export const First = () => {
           }}
         >
           {/* box_1 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
               data-aos-duration="3000"
@@ -48,14 +48,14 @@ export const First = () => {
                   className="w-100 us_img_hover"
                 />
               </span>
-              <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
-                <span className=" color_purple">20% Off</span> For First Time
+              <p className="text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
+                <span className="color_purple">20% Off</span> For First Time
                 Customers
               </p>
             </div>
           </SplideSlide>
           {/* box_2 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
               data-aos-duration="3000"
@@ -68,14 +68,14 @@ export const First = () => {
                   className="w-100 us_img_hover"
                 />
               </span>
-              <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
+              <p className="text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3">
                 Purple Panda’s
-                <span className=" color_purple"> Picks Of The week</span>
+                <span className="color_purple"> Picks Of The week</span>
               </p>
             </div>
           </SplideSlide>
           {/* box_3 */}
-          <SplideSlide className=" d-flex justify-content-center px-2">
+          <SplideSlide className="d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
               data-aos-duration="3000"
@@ -88,8 +88,8 @@ export const First = () => {
                   className="w-100 us_img_hover"
                 />
               </span>
-              <p className=" text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3 px-2">
-                <span className=" color_purple">Collect rewards</span> points
+              <p className="text-center ff_Philosopher fw_700 fs_2xl text-white lh_normal pt-3 px-2">
+                <span className="color_purple">Collect rewards</span> points
                 every time you purchase
               </p>
             </div>
