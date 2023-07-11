@@ -7,7 +7,7 @@ import most_3 from "../assets/img/webp/most_3.webp";
 export const MostPopular = () => {
   return (
     <div className="bg_mostpopular">
-      <Container className="container_1140 py-5">
+      <Container className="container_1140 py-lg-5 pt-sm-5 pt-3 pb-4">
         <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 lh_normal">
           Most <span className="color_purple">Popular</span> Items
         </p>

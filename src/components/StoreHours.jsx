@@ -3,12 +3,12 @@ import React from "react";
 const StoreHours = () => {
   return (
     <>
-      <section className="pb-5">
+      <section className="pb-sm-5 pb-3 ">
         <div className="store_container pb_17">
-          <p className="ff_Philosopher fw_400 fs_3xl clr_white text-center pb-3 m-0">
+          <p className="ff_Philosopher fw_400 fs_3xl clr_white text-center pb-lg-3 pt-lg-0 pt-3 m-0">
             Store <span className="color_purple">Hours</span>
           </p>
-          <div className="pt-5">
+          <div className="pt-sm-5 pt-4">
             <div className="d-flex align-items-center flex-column flex-sm-row justify-content-between">
               <div className="mw_272 bottom_line position-relative">
                 <p className="ff_montserrat fw_600 clr_white fs_xl">

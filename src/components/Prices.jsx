@@ -6,16 +6,16 @@ import mushroom from "../assets/img/webp/prices_mushroom.webp";
 const Prices = () => {
   return (
     <>
-      <section className="py-5 position-relative">
+      <section className="py-lg-5 position-relative">
         <div className="container_1140 py-5">
           <div className="prices_box">
             <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
               <Col lg={7}>
                 <p className="ff_Philosopher fw_700 fs_3xl clr_white mb-0 lh_normal pb-1 pt-4 pt-lg-0">
-                  High<span className="color_purple"> Thoughts</span>, Low{" "}
+                  High<span className="color_purple"> Thoughts</span>, Low
                   <span className="color_purple">Prices</span>
                 </p>
-                <p className="ff_Montserrat fw_400 fs_md clr_white pt-2 pb-5 ">
+                <p className="ff_Montserrat fw_400 fs_md clr_white pt-2 pb-5 mb-lg-2 mb-0">
                   We pride ourselves on supplying premium, top-shelf weed
                   without the top-shelf markups. Some dispensaries will charge
                   an arm and a leg for the newest “flavors”, but we believe in

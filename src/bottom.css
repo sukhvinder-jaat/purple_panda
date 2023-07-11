@@ -49,7 +49,7 @@
   height: 2px;
   margin-top: 55px;
 }
-.bg_potent{
+.bg_potent {
   background-image: url("../src/assets/img/webp/potent-bg.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -59,7 +59,7 @@
 .overflow_hidden {
   overflow: hidden;
 }
-.z_1111111{
+.z_1111111 {
   z-index: 1111111;
 }
 .animation_preloader_2 {
@@ -78,7 +78,10 @@
   border: 2px solid white !important;
 }
 .bg_gradient {
-background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !important;
+  background: var(
+    --linear,
+    linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%)
+  ) !important;
 }
 .animation_preloader {
   animation: preloaderani 2.5s linear infinite;
@@ -122,10 +125,10 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 .mw_272 {
   max-width: 272px;
 }
-.mw_543{
+.mw_543 {
   max-width: 543px;
 }
-.mw_153{
+.mw_153 {
   max-width: 153px;
 }
 /*===================================================================================== height ============================================================================ */
@@ -138,10 +141,10 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 .h_278 {
   height: 278px;
 }
-.h_473{
+.h_473 {
   height: 473px;
 }
-.h_153{
+.h_153 {
   height: 153px;
 }
 /*==================================================================================== line height ======================================================================= */
@@ -158,10 +161,10 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 .right_30 {
   right: 30px;
 }
-.left_0{
+.left_0 {
   left: 0;
 }
-.left_45{
+.left_45 {
   left: 44.5%;
 }
 .top_0 {
@@ -170,16 +173,16 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 .left_14 {
   left: 14%;
 }
-.top_-200{
+.top_-200 {
   top: -200px;
 }
-.left_-300{
+.left_-300 {
   left: -300px;
 }
 .top_-35 {
   top: -35px;
 }
-.top_80{
+.top_80 {
   top: 80px;
 }
 .right_-105 {
@@ -207,14 +210,14 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 .pb_17 {
   padding-bottom: 17px;
 }
-.pt_67{
+.pt_67 {
   padding-top: 67px;
 }
-.pt_0{
+.pt_0 {
   padding-top: 0;
 }
 /*=============================================================================== margin ===================================================================== */
-.mt_43{
+.mt_43 {
   margin-top: 43px;
 }
 /*============================================================================== before after ==============================================================*/
@@ -235,12 +238,12 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
   width: 272px !important;
   background: rgba(221, 34, 230, 0.59);
 }
-.gif_after::after{
-  content: '';
+.gif_after::after {
+  content: "";
   position: absolute;
   top: 50%;
   left: 37%;
-  background-image: url('./assets/img/gif/number_gif.gif');
+  background-image: url("./assets/img/gif/number_gif.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -291,10 +294,10 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
   transition: all 0.2s linear !important;
 }
 /*========================================================================== transform translate========================================================================= */
-.trans_-70y{
+.trans_-70y {
   transform: translateY(-70px);
 }
-.trans_-300y_x_191{
+.trans_-300y_x_191 {
   transform: translateY(-300px) translateX(191px);
 }
 /*==================================================================================== shadow circles ==================================================================== */
@@ -307,28 +310,41 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
 .shadow_circle_prices {
   width: 250px;
   height: 250px;
-   background-color: #9f00ff !important;
+  background-color: #9f00ff !important;
   filter: blur(134.5px);
 }
 /*==================================================================================== media screen ====================================================================== */
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .vh_100_custom {
+    min-height: 100vh;
+  }
+}
 @media (max-width: 1400px) {
   .left_14 {
     left: 1%;
   }
-  .bg_potent{
-  background-image: url("../src/assets/img/webp/potent-bg.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  .bg_potent {
+    background-image: url("../src/assets/img/webp/potent-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
+@media (max-width: 1200px) {
+  .pt_xl_0 {
+    padding-top: 0 !important;
+  }
+  .mt_xl_0 {
+    margin-top: 0 !important;
+  }
 }
-@media (max-width:992px) {
-    .bg_footer {
-  background-image: url("../src/assets/img/webp/footer-bg.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+@media (max-width: 992px) {
+  .bg_footer {
+    background-image: url("../src/assets/img/webp/footer-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 @media (min-width: 992px) {
   .position_absolute {
@@ -341,34 +357,34 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
     height: 563px;
   }
 }
-@media (max-width:768px) {
-.fs_48xl{
-  font-size: var(--fs-3xl) !important;
+@media (max-width: 768px) {
+  .fs_48xl {
+    font-size: var(--fs-3xl) !important;
+  }
 }
-}
-@media (max-width:576px) {
-  .min_w_320{
+@media (max-width: 576px) {
+  .min_w_320 {
     min-width: 320px;
   }
-  .h_320{
+  .h_320 {
     height: 320px;
   }
-  .gif_after::after{
-  content: '';
-  position: absolute;
-  top: 52%;
-  left: 38%;
-  background-image: url('./assets/img/gif/number_gif.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 80px ;
-  height: 80px ;
-  z-index: 11;
-}
-.pt_sm_35{
-  padding-top: 35px;
-}
+  .gif_after::after {
+    content: "";
+    position: absolute;
+    top: 52%;
+    left: 38%;
+    background-image: url("./assets/img/gif/number_gif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    z-index: 11;
+  }
+  .pt_sm_35 {
+    padding-top: 35px;
+  }
 }
 @media (min-width: 576px) {
   .h_445 {
@@ -377,5 +393,4 @@ background: var(--linear, linear-gradient(132deg, #AA1FFE 0%, #DD22E6 100%)) !im
   .mw_412 {
     max-width: 412px;
   }
-
 }

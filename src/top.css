@@ -242,7 +242,7 @@
     padding: 12px !important;
   }
   .bottom_line:before {
-    left: -100px !important;
+    left: -43% !important;
     width: 351px !important;
   }
 }
