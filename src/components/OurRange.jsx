@@ -14,7 +14,7 @@ const OurRange = () => {
                 <p className="ff_Philosopher fw_700 fs_3xl text-center clr_white m-0 lh_normal">
                   Our <span className="color_purple">Range</span>
                 </p>
-                <div className="d-flex justify-content-center pt-5">
+                <div className="d-flex justify-content-center pt-sm-5 pt-3">
                   <p className="text-center mw_703 m-0 clr_white ff_Montserrat fw_400 fs_md lh_normal">
                     We have a variety of different recreational and medicinal
                     items in our range, including cannabis, vapes, edibles,
