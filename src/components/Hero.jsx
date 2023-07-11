@@ -6,10 +6,10 @@ import panda from "../assets/img/webp/hero_panda.webp";
 export const Hero = () => {
   return (
     <div>
-      <div className="d-flex flex-column vh_100_between bg_hero min_vh_100">
+      <div className="d-flex flex-column vh_100_custom bg_hero">
         <MyNav />
         <div className="flex-grow-1 d-flex align-items-center">
-          <Container className="container_1140">
+          <Container className="container_1140 pt-xl-0 pt-sm-5 pb-lg-0 pb-5">
             <Row className="flex-column-reverse flex-lg-row">
               <Col lg={6} xs={12} className="d-flex align-items-center">
                 <div>

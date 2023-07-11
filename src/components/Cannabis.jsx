@@ -7,7 +7,7 @@ import cannabis_4 from "../assets/img/webp/cannabis_4.webp";
 import cannabis_5 from "../assets/img/webp/cannabis_5.webp";
 const Cannabis = () => {
   return (
-    <section className="about_back py-5">
+    <section className="about_back py-xl-5 pb-5">
       <div className="container_1140">
         <div className=" text-center d-flex flex-column align-items-center">
           <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0 lh_normal">
@@ -18,7 +18,7 @@ const Cannabis = () => {
             experts and lovers of cannabis at heart. We offer a wide range of
             buds each with different highs, flavors, and aromas, so you can find
             the perfect joint-filler, bowl-packer, or pipe clearer to suit your
-            tastes s
+            tastes
           </p>
         </div>
         <Row className="pt-5">

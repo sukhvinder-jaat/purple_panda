@@ -5,7 +5,7 @@ import toronto_r from "../assets/img/svg/toronto_r.svg";
 
 const Toronto = () => {
   return (
-    <section className="py-5 mt-4 position-relative">
+    <section className="py-xl-5 pb-lg-5 mt-4 position-relative">
       <span className="position-absolute toronto_l transisation animation_stem">
         <img src={toronto_l} alt="toronto_l" />
       </span>

@@ -4,10 +4,10 @@ import canada_1 from "../assets/img/svg/canada_1.svg";
 
 const Canada = () => {
   return (
-    <section className="py-5 mt_-1 canada_bg position-relative z-3">
+    <section className="py-xl-5 pb-5 mt_-1 canada_bg position-relative z-3">
       <div className="canada_gradient position-absolute"></div>
       <div className="container_1140 position-relative z-3 py-5">
-        <div className="text-center d-flex flex-column align-items-center pt-5">
+        <div className="text-center d-flex flex-column align-items-center pt-lg-5">
           <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0 lh_normal pb-1">
             Canada Wide <span className="color_purple">Mail Orders</span>
           </p>

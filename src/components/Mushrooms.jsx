@@ -11,7 +11,7 @@ import mushroom7 from "../assets/img/webp/mushroom7.webp";
 export const Mushrooms = () => {
   return (
     <>
-      <Container className="container_1140 py-5">
+      <Container className="container_1140 pt-sm-5 pt-3 pb-5">
         <Splide
           options={{
             perPage: 7,

@@ -9,11 +9,11 @@ import about_5 from "../assets/img/webp/about_5.webp";
 
 const About = () => {
   return (
-    <section className="about_back py-5">
+    <section className="about_back py-sm-5 pt-5 mt-lg-5">
       <div className="container_1140">
         <Row className=" align-items-center">
           <Col xl={7}>
-            <div className="back_shadow back_card p-4 p-sm-5 border_about position-relative card_hover overflow-hidden">
+            <div className="back_shadow back_card p-4 p-lg-5 p-3 border_about position-relative card_hover overflow-hidden">
               <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0 lh_normal">
                 About <span className="color_purple">Us</span>
               </p>
@@ -33,7 +33,7 @@ const About = () => {
                 vapes, CBD, extracts, and even buy magic mushrooms online from
                 our store.
               </p>
-              <div className="mt-5">
+              <div className="mt-sm-5 mt-3">
                 <Button textbtn="READ MORE" />
               </div>
             </div>

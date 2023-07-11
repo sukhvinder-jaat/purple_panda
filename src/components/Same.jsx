@@ -12,12 +12,12 @@ import same_7 from "../assets/img/svg/same_7.svg";
 const Same = () => {
   return (
     <section>
-      <div className="container_1140 py-5 position-relative">
+      <div className="container_1140 py-xl-5 position-relative">
         <span className="position-absolute same_back_effect z-0"></span>
         <Row className="align-items-center py-5">
-          <Col lg={5}>
+          <Col lg={5} className="pb-lg-0 pb-4">
             <img
-              className="w-100 p-4 z-3 position-relative"
+              className="w-100 px-4 py-lg-4 z-3 position-relative"
               src={same_img}
               alt="same_img"
             />

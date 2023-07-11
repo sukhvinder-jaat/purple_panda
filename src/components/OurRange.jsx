@@ -6,7 +6,7 @@ import rightstem from "../assets/img/webp/our-range-right-stem.webp";
 const OurRange = () => {
   return (
     <>
-      <section className="pt-5 pb-4">
+      <section className="pt-sm-5 pb-4">
         <div className="container_1140 pt-5">
           <Row className="pt-3">
             <Col lg={12} className="position-relative">

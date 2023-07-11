@@ -7,8 +7,8 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 export const Latest = () => {
   return (
     <div className="latest_bg py-5">
-      <Container className="container_1140 pt-5">
-        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-5 lh_normal">
+      <Container className="container_1140 pt-sm-5 pt-3">
+        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-lg-5 pb-4 lh_normal">
           Latest <span className="color_purple">Blogs</span> And
           <span className="color_purple"> News</span>
         </p>
