@@ -19,7 +19,7 @@ const Toronto = () => {
           data-aos-duration="3000"
           data-aos-delay="300"
         >
-          <p className=" fw_600 fs_xl ff_Montserrat clr_white max_w_630">
+          <p className="fw_600 fs_xl ff_Montserrat clr_white max_w_630">
             We’re based in both the
             <span className="color_purple"> Greater Toronto Area</span>, with
             our delivery service covering:

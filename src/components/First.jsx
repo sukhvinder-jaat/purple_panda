@@ -7,7 +7,7 @@ import first_3 from "../assets/img/webp/first_3.webp";
 export const First = () => {
   return (
     <div className="first_bg py-xl-5">
-      <Container className=" container_1140 py-sm-5 pb-5">
+      <Container className="container_1140 py-sm-5 pb-5">
         <Splide
           options={{
             perPage: 3,

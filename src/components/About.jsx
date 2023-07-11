@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section className="about_back py-sm-5 pt-5 mt-lg-5">
       <div className="container_1140">
-        <Row className=" align-items-center">
+        <Row className="align-items-center">
           <Col xl={7}>
             <div
               className="back_shadow back_card p-4 p-lg-5 p-3 border_about position-relative card_hover overflow-hidden"

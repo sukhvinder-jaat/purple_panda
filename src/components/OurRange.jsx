@@ -52,7 +52,7 @@ const OurRange = () => {
                 <img
                   src={leftstem}
                   alt="left side steam bg image"
-                  className=" mw_177 W-100 h_291"
+                  className="mw_177 W-100 h_291"
                 />
               </div>
               <div className="position-absolute top_0 right_30 animation_stem transisation">
