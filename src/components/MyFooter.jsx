@@ -34,7 +34,7 @@ const MyFooter = () => {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <p className="ff_montserrat fw_400 fs_md clr_white m-0 pt-4 mw_600 text-center">
+            <p className="ff_Montserrat fw_400 fs_md clr_white m-0 pt-4 mw_600 text-center">
               Tempor cras et scelerisque bibendum. Sapien proin pharetra iaculis
               cras massa auctor turpis. Eget massa imperdiet sit massa. Hac sit
               nec.
@@ -49,17 +49,17 @@ const MyFooter = () => {
             <div className="d-flex justify-content-center align-items-center">
               <a
                 href="#"
-                className="me-3 clr_white ff_montserrat fw_600 hover_line position-relative fs_md mb-0 "
+                className="me-3 clr_white ff_Montserrat fw_600 hover_line position-relative fs_md mb-0 "
               >
                 SHOP
               </a>
-              <a className="ms-4 ff_montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 ">
+              <a className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 ">
                 ABOUT
               </a>
               <Link
                 to="/New"
                 onClick={moveToTop}
-                className="ms-4 me-3 clr_white ff_montserrat hover_line position-relative fw_600 fs_md mb-0 "
+                className="ms-4 me-3 clr_white ff_Montserrat hover_line position-relative fw_600 fs_md mb-0 "
               >
                 CONTACT
               </Link>
@@ -82,7 +82,7 @@ const MyFooter = () => {
               fill="white"
             />
           </svg>
-          <p className="ff_montserrat clr_white mb-0 fw_400 fs_xsm">
+          <p className="ff_Montserrat clr_white mb-0 fw_400 fs_xsm">
             copyright2022purplepanda
           </p>
         </div>

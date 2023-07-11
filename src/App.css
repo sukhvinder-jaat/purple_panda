@@ -42,6 +42,8 @@
   --fs-xsm: 12px;
   /* color */
   --color-clr_white: #ffffff !important;
+  --color-clr_pink: #d521e9 !important;
+  --color-clr_purplr_l: #9f00ff !important;
   --color-clr_dark_blur: #411a68 !important;
   --color-clr_purple: #ba20f7 !important;
   --color-black_back: #07031d !important;
@@ -53,6 +55,12 @@
 
 .clr_white {
   color: var(--color-clr_white) !important;
+}
+.clr_pink {
+  color: var(--color-clr_pink) !important;
+}
+.clr_purplr_l {
+  color: var(--color-clr_purplr_l) !important;
 }
 
 .clr_dark_blur {
