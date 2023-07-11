@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import star from "../assets/img/svg/star.svg";
+import Button from "./Button";
 
 export const Classifications = () => {
   return (
@@ -67,10 +68,11 @@ export const Classifications = () => {
                 <p className="fw_600 fs_xl ff_Montserrat clr_white mb-0">
                   5- Star
                 </p>
-                <p className="fw_400 fs_md ff_Montserrat clr_white">
+                <p className="fw_400 fs_md ff_Montserrat clr_white pb-5">
                   Top-shelf buds for those special occasions.
                 </p>
               </div>
+              <Button textbtn="TRY PURPLE PANDA TODAY" />
             </div>
           </Col>
         </Row>
