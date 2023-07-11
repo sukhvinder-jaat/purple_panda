@@ -8,16 +8,16 @@ export const MostPopular = () => {
   return (
     <div className="bg_mostpopular">
       <Container className="container_1140 py-5">
-        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0">
+        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 lh_normal">
           Most <span className="color_purple">Popular</span> Items
         </p>
-        <p className="text-white ff_Montserrat text-center fs_md fw_400">
+        <p className="text-white ff_Montserrat text-center fs_md fw_400 pt_14 mb-0">
           <span className="d-block">
             Pellentesque tincidunt fermentum mauris dignissim quam
           </span>
           arcu. A netus natoque urna vivamus faucibus. Sollicitudin et nisl.
         </p>
-        <Splide
+        <Splide className="pt-5"
           options={{
             perPage: 4,
             dots: "true",

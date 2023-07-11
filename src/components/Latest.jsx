@@ -8,12 +8,12 @@ export const Latest = () => {
   return (
     <div className="latest_bg py-5">
       <Container className="container_1140 pt-5">
-        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-5">
+        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-5 lh_normal">
           Latest <span className="color_purple">Blogs</span> And
-          <span className="color_purple">News</span>
+          <span className="color_purple"> News</span>
         </p>
 
-        <Splide
+        <Splide className="pt-2 mb-5"
           options={{
             perPage: 3,
             dots: "true",

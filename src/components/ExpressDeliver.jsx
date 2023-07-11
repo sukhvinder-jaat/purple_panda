@@ -5,7 +5,7 @@ import expressdeliveryimg from "../assets/img/webp/express-col-img.webp";
 const ExpressDeliver = () => {
   return (
     <>
-      <section className="pt-2 position-relative">
+      <section className="pt-3 pb-3 position-relative">
         <div className="container_1140  ">
           <Row className="justify-content-between align-items-center">
             <Col lg={7}>
@@ -18,7 +18,7 @@ const ExpressDeliver = () => {
               </div>
               <div className="w-100 h_563 d-none d-lg-block"></div>
             </Col>
-            <Col lg={5}>
+            <Col lg={5} className=" position-relative z-3">
               <div className="express_delivery_box position-relative line card_hover overflow-hidden">
                 <div className="express_text_box">
                   <p className="ff_Philosopher fs_3xl fw_700 clr_white m-0 lh_normal pb-1">

@@ -6,12 +6,12 @@ const Canada = () => {
   return (
     <section className="py-5 mt_-1 canada_bg position-relative z-3">
       <div className="canada_gradient position-absolute"></div>
-      <div className="container_1140 position-relative z-3">
-        <div className="text-center d-flex flex-column align-items-center">
-          <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0">
+      <div className="container_1140 position-relative z-3 py-5">
+        <div className="text-center d-flex flex-column align-items-center pt-5">
+          <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0 lh_normal pb-1">
             Canada Wide <span className="color_purple">Mail Orders</span>
           </p>
-          <p className="fw_400 fs_md ff_Montserrat clr_white opacity_08 max_w_980">
+          <p className="fw_400 fs_md ff_Montserrat clr_white opacity_08 max_w_980 pt-2 mb-0">
             Purple Panda offers discreet mail orders to all provinces in Canada,
             we have new list of products everyday to serve your needs whether
             its recreational or medinical use. We ship the next business day
@@ -87,7 +87,7 @@ const Canada = () => {
                     fill="#A020F0"
                   />
                 </svg>
-                <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06 pt-4 mb-0">
+                <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06 pt_37 mb-0">
                   Register for an account first, then head on other to our shop
                   selection
                 </p>
@@ -124,7 +124,7 @@ const Canada = () => {
                   />
                 </svg>
 
-                <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06 pt-4">
+                <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06 pt_37 mb-0">
                   Register for an account first, then head on other to our shop
                   selection
                 </p>
@@ -161,7 +161,7 @@ const Canada = () => {
                   />
                 </svg>
 
-                <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06 pt-4">
+                <p className="fw_400 fs_md ff_Montserrat clr_white opacity_06 pt_37 mb-0">
                   Register for an account first, then head on other to our shop
                   selection
                 </p>

@@ -7,11 +7,11 @@ const Potent = () => {
     <>
       <section className="py-5">
         <div className="py-5">
-          <div className="py-4">
+          <div className="py-5">
             <p className="ff_Philosopher text-center fw_700 fs_3xl clr_white lh_normal">
               Potent Cannabis<span className="color_purple"> Alert</span>
             </p>
-            <p className="ff_Montserrat text-center fw_400 fs_md clr_white pt-1 m-0">
+            <p className="ff_Montserrat text-center fw_400 fs_md clr_white pt-1 m-0 px-sm-0 px-2">
               click here to try our most potent hand picked craft cannabis
             </p>
             <div className="mt_43 bg_potent">

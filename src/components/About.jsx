@@ -11,13 +11,13 @@ const About = () => {
   return (
     <section className="about_back py-5">
       <div className="container_1140">
-        <Row>
+        <Row className=" align-items-center">
           <Col xl={7}>
             <div className="back_shadow back_card p-4 p-sm-5 border_about position-relative card_hover overflow-hidden">
-              <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0">
+              <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0 lh_normal">
                 About <span className="color_purple">Us</span>
               </p>
-              <p className="fw_400 fs_md ff_Montserrat clr_white mb-0">
+              <p className="fw_400 fs_md ff_Montserrat clr_white mb-0 pt_14">
                 Purple Panda is a Canadian online cannabis dispensary with a
                 passion for good weed and even better customer service. We all
                 remember the days of waiting for scary strangers on street
@@ -25,7 +25,7 @@ const About = () => {
                 how we provide an easy, convenient, and user-friendly experience
                 to our clients.
               </p>
-              <p className="fw_400 fs_md ff_Montserrat clr_white">
+              <p className="fw_400 fs_md ff_Montserrat clr_white mb-0 pb-2">
                 We specialize in high-quality cannabis for both recreational and
                 medical purposes, while also making sure that you’re getting the
                 best bud for your buck! Along with all the different strains of

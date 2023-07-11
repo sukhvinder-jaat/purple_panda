@@ -42,8 +42,8 @@
   --fs-xsm: 12px;
   /* color */
   --color-clr_white: #ffffff !important;
-  --color-clr_dark_blur: #411A68 !important;
-  --color-clr_purple: #BA20F7 !important;
+  --color-clr_dark_blur: #411a68 !important;
+  --color-clr_purple: #ba20f7 !important;
   --color-black_back: #07031d !important;
   --color-black_21: #212121 !important;
   --color-silver_21: #565656 !important;
@@ -136,7 +136,20 @@
   font-weight: 800;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1200px) {
+  :root {
+    --fs-4xl: 70px;
+    --fs-3xl: 38px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    --fs-xsm: 12px;
+  }
+}
+
+@media (max-width: 992px) {
   :root {
     --fs-4xl: 80px;
     --fs-3xl: 48px;
@@ -149,11 +162,11 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 768px) {
   :root {
     --fs-4xl: 80px;
     --fs-3xl: 48px;
-    --fs-2xl: 32px;
+    --fs-2xl: 30px;
     --fs-xl: 24px;
     --fs-lg: 20px;
     --fs-md: 16px;
@@ -162,48 +175,21 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 576px) {
   :root {
-    --fs-4xl: 80px;
-    --fs-3xl: 48px;
-    --fs-2xl: 32px;
-    --fs-xl: 24px;
-    --fs-lg: 20px;
-    --fs-md: 16px;
+    --fs-4xl: 44px;
+    --fs-3xl: 30px;
+    --fs-2xl: 25px;
+    --fs-xl: 19px;
+    --fs-lg: 15px;
+    --fs-md: 14px;
     --fs-sm: 14px;
     --fs-xsm: 12px;
   }
 }
-
-@media (min-width: 1330px) {
-  :root {
-    --fs-4xl: 80px;
-    --fs-3xl: 48px;
-    --fs-2xl: 32px;
-    --fs-xl: 24px;
-    --fs-lg: 20px;
-    --fs-md: 16px;
-    --fs-sm: 14px;
-    --fs-xsm: 12px;
-  }
-}
-
-@media (min-width: 1400px) {
-  :root {
-    --fs-4xl: 80px;
-    --fs-3xl: 48px;
-    --fs-2xl: 32px;
-    --fs-xl: 24px;
-    --fs-lg: 20px;
-    --fs-md: 16px;
-    --fs-sm: 14px;
-    --fs-xsm: 12px;
-  }
-}
-
 .color_purple {
   color: linear-gradient(170deg, rgba(170, 31, 254, 1), rgba(221, 34, 230, 1));
-  background: linear-gradient(126.14deg, #AA1FFE 3.66%, #DD22E6 95.92%);
+  background: linear-gradient(126.14deg, #aa1ffe 3.66%, #dd22e6 95.92%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
