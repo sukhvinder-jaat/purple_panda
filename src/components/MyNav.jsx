@@ -87,7 +87,7 @@ const MyNav = () => {
                         <li>
                           <Link
                             to="/"
-                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
+                            className="mr_37_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             HOME
@@ -96,7 +96,7 @@ const MyNav = () => {
                         <li>
                           <a
                             href="#"
-                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
+                            className="mr_37_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             SHOP
@@ -105,7 +105,7 @@ const MyNav = () => {
                         <li>
                           <a
                             href="#"
-                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
+                            className="mr_37_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             ABOUT
@@ -114,7 +114,7 @@ const MyNav = () => {
                         <li>
                           <Link
                             to="/New"
-                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
+                            className="mr_37_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             CONTACT
@@ -123,7 +123,7 @@ const MyNav = () => {
                         <li>
                           <a
                             href="#"
-                            className="me-xl-4 ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
+                            className="mr_21_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
                             FAQ
@@ -153,7 +153,7 @@ const MyNav = () => {
                       </ul>
                       <div className="d-xl-flex d-none flex-xl-row flex-column align-items-center">
                         {/* search */}
-                        <div className="nav_input rounded-pill overflow-hidden pe-3 me-3">
+                        <div className="nav_input rounded-pill overflow-hidden pe-3">
                           <input
                             type="text"
                             placeholder="Search here.."
@@ -167,14 +167,16 @@ const MyNav = () => {
                             />
                           </span>
                         </div>
-                        <span className="mx-xl-4 mx-2">
+                        <span className="ms-xl-4 me-xl-3 mx-2">
                           <img
                             src={shopping}
                             alt="shopping"
                             className="w-100 pointer"
                           />
                         </span>
-                        <Button textbtn="SIGN IN" />
+                        <div className="ms-xl-3 ">
+                          <Button textbtn="SIGN IN" />
+                        </div>
                       </div>
                     </div>
                   </div>

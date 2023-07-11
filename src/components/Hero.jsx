@@ -15,11 +15,11 @@ export const Hero = () => {
                 <div>
                   <p className="text-white ff_Philosopher fs_4xl fw_700 lh_normal">
                     <span className="d-xl-block">
-                      Setting a <span className="color_purple">‘High’</span>
+                      Setting a<span className="color_purple"> ‘High’ </span>
                     </span>
                     Standard
                   </p>
-                  <p className="text-white ff_Montserrat fs_md fw_400 pe-lg-4 mb-lg-5 mb-3">
+                  <p className="text-white ff_Montserrat fs_md fw_400 pe-lg-4 mb-lg-5 mb-3 pb-1">
                     We at Purple Panda are passionate about becoming the best
                     online weed dispensary Canada has ever seen. We believe in
                     good products, fair pricing, and top-notch customer service

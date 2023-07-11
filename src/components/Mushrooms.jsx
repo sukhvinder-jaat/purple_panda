@@ -10,7 +10,7 @@ import mushroom6 from "../assets/img/webp/mushroom6.webp";
 import mushroom7 from "../assets/img/webp/mushroom7.webp";
 export const Mushrooms = () => {
   return (
-    <div>
+    <>
       <Container className="container_1140 py-5">
         <Splide
           options={{
@@ -73,7 +73,7 @@ export const Mushrooms = () => {
         >
           {/* box_1 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div className="h-100 us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom1}
@@ -88,7 +88,7 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_2 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div className="h-100 us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom2}
@@ -103,7 +103,7 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 d-flex flex-column justify-content-start align-items-center us_img_hover_1">
+            <div className="h-100 d-flex flex-column justify-content-start align-items-center us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom3}
@@ -118,7 +118,7 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_4 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div className="h-100 us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom4}
@@ -133,7 +133,7 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_5 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div className="h-100 us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom5}
@@ -148,7 +148,7 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_6 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div className="h-100 us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom6}
@@ -163,7 +163,7 @@ export const Mushrooms = () => {
           </SplideSlide>
           {/* box_7 */}
           <SplideSlide className="d-flex justify-content-center px-2">
-            <div className="h-100 us_img_hover_1">
+            <div className="h-100 us_img_hover_1 px-1">
               <span>
                 <img
                   src={mushroom7}
@@ -178,6 +178,6 @@ export const Mushrooms = () => {
           </SplideSlide>
         </Splide>
       </Container>
-    </div>
+    </>
   );
 };
