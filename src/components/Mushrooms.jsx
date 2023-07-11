@@ -76,7 +76,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -96,7 +96,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="600"
             >
               <span>
@@ -116,7 +116,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 d-flex flex-column justify-content-start align-items-center us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="900"
             >
               <span>
@@ -136,7 +136,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="1200"
             >
               <span>
@@ -156,7 +156,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="1500"
             >
               <span>
@@ -176,7 +176,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="1800"
             >
               <span>
@@ -196,7 +196,7 @@ export const Mushrooms = () => {
             <div
               className="h-100 us_img_hover_1 px-1"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="2100"
             >
               <span>

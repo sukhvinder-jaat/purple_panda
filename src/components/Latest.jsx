@@ -11,7 +11,7 @@ export const Latest = () => {
         <p
           className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 pb-lg-5 pb-4 lh_normal"
           data-aos="fade-left"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="300"
         >
           Latest <span className="color_purple">Blogs</span> And
@@ -44,7 +44,7 @@ export const Latest = () => {
             <div
               className="most_box p-2 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -72,7 +72,7 @@ export const Latest = () => {
             <div
               className="most_box p-2 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="600"
             >
               <span>
@@ -101,7 +101,7 @@ export const Latest = () => {
             <div
               className="most_box p-2 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="900"
             >
               <span>

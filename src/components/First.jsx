@@ -38,7 +38,7 @@ export const First = () => {
           <SplideSlide className=" d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -58,7 +58,7 @@ export const First = () => {
           <SplideSlide className=" d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -78,7 +78,7 @@ export const First = () => {
           <SplideSlide className=" d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>

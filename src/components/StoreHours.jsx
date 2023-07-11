@@ -8,7 +8,7 @@ const StoreHours = () => {
           <p
             className="ff_Philosopher fw_400 fs_3xl clr_white text-center pb-lg-3 pt-lg-0 pt-3 m-0"
             data-aos="fade-down"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos-delay="300"
           >
             Store <span className="color_purple">Hours</span>
@@ -19,7 +19,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="300"
                 >
                   Mon : 10am-8pm
@@ -29,7 +29,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="300"
                 >
                   Tue : 10am-8pm
@@ -41,7 +41,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="600"
                 >
                   Wed : 10am-8pm
@@ -51,7 +51,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="600"
                 >
                   Thu : 10am-8pm
@@ -63,7 +63,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="900"
                 >
                   Fri : 10am-8pm
@@ -73,7 +73,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="900"
                 >
                   Sat : 10am-8pm
@@ -85,7 +85,7 @@ const StoreHours = () => {
                 <p
                   className="ff_montserrat fw_600 clr_white fs_xl"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="1200"
                 >
                   Sun : 10am-8pm

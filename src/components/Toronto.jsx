@@ -16,7 +16,7 @@ const Toronto = () => {
         <div
           className="text-center d-flex flex-column align-items-center"
           data-aos="flip-down"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="300"
         >
           <p className=" fw_600 fs_xl ff_Montserrat clr_white max_w_630">
@@ -37,7 +37,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="300"
                   >
                     Mississauga
@@ -45,7 +45,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-3"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="600"
                   >
                     Oakville
@@ -53,7 +53,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-3"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="1200"
                   >
                     Brampton
@@ -61,7 +61,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-3"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="1500"
                   >
                     Brampton
@@ -77,7 +77,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="300"
                   >
                     Toronto
@@ -85,7 +85,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-3"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="600"
                   >
                     Vaughan
@@ -93,7 +93,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-3"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="900"
                   >
                     Markham
@@ -101,7 +101,7 @@ const Toronto = () => {
                   <li
                     className="list_style fw_400 fs_2xl ff_Montserrat clr_white pt-3"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="1200"
                   >
                     Richmond

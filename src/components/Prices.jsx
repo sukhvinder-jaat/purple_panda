@@ -11,14 +11,14 @@ const Prices = () => {
           <div
             className="prices_box"
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
               <Col lg={7}>
                 <p
                   className="ff_Philosopher fw_700 fs_3xl clr_white mb-0 lh_normal pb-1 pt-4 pt-lg-0"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="300"
                 >
                   High<span className="color_purple"> Thoughts</span>, Low
@@ -27,7 +27,7 @@ const Prices = () => {
                 <p
                   className="ff_Montserrat fw_400 fs_md clr_white pt-2 pb-5 mb-lg-2 mb-0"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="600"
                 >
                   We pride ourselves on supplying premium, top-shelf weed
@@ -38,7 +38,7 @@ const Prices = () => {
                 </p>
                 <div
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="900"
                 >
                   <Button textbtn="GIVE PURPLE PANDA A GO" />

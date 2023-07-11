@@ -16,12 +16,12 @@ const About = () => {
             <div
               className="back_shadow back_card p-4 p-lg-5 p-3 border_about position-relative card_hover overflow-hidden"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <p
                 className="fw_400 fs_3xl ff_Philosopher clr_white mb-0 lh_normal"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 About <span className="color_purple">Us</span>
@@ -29,7 +29,7 @@ const About = () => {
               <p
                 className="fw_400 fs_md ff_Montserrat clr_white mb-0"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="600"
               >
                 Purple Panda is a Canadian online cannabis dispensary with a
@@ -42,7 +42,7 @@ const About = () => {
               <p
                 className="fw_400 fs_md ff_Montserrat clr_white mb-0 pb-2"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="600"
               >
                 We specialize in high-quality cannabis for both recreational and
@@ -56,7 +56,7 @@ const About = () => {
               <div
                 className="mt-sm-5 mt-3"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="900"
               >
                 <Button textbtn="READ MORE" />
@@ -67,7 +67,7 @@ const About = () => {
             <div
               className="d-grid grid_gap"
               data-aos="fade-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img
                 className="about_1 w-100 us_img_hover"

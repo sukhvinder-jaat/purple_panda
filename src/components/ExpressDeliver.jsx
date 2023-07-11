@@ -12,7 +12,7 @@ const ExpressDeliver = () => {
               <div
                 className="position_absolute animation_express_img top_0 left_14"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 <img
@@ -27,14 +27,14 @@ const ExpressDeliver = () => {
               <div
                 className="express_delivery_box position-relative line card_hover overflow-hidden"
                 data-aos="fade-left"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 <div className="express_text_box">
                   <p
                     className="ff_Philosopher fs_3xl fw_700 clr_white m-0 lh_normal pb-1"
                     data-aos="fade-left"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="600"
                   >
                     <span className="color_purple">Express</span> Cannabis
@@ -43,7 +43,7 @@ const ExpressDeliver = () => {
                   <p
                     className="ff_Montserrat fw_400 fs_md clr_white m-0 pt-2"
                     data-aos="fade-left"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="300"
                   >
                     One of the ways that we set ourselves apart from your

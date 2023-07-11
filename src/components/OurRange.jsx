@@ -13,12 +13,12 @@ const OurRange = () => {
               <div
                 className="our_range_box position-relative z-1 card_hover overflow-hidden"
                 data-aos="fade-left"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
               >
                 <p
                   className="ff_Philosopher fw_700 fs_3xl text-center clr_white m-0 lh_normal"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="300"
                 >
                   Our <span className="color_purple">Range</span>
@@ -26,7 +26,7 @@ const OurRange = () => {
                 <div
                   className="d-flex justify-content-center pt-5"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="600"
                 >
                   <p className="text-center mw_703 m-0 clr_white ff_Montserrat fw_400 fs_md lh_normal">
@@ -39,7 +39,7 @@ const OurRange = () => {
                 <div
                   className="d-flex justify-content-center pt-4"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="900"
                 >
                   <p className="text-center mw_703 m-0 clr_white ff_Montserrat fw_400 fs_md lh_normal">
