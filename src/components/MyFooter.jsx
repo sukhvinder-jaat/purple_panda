@@ -8,13 +8,14 @@ const MyFooter = () => {
       <section className="bg_footer position-relative">
         <div className="container_1140">
           <div className="d-flex justify-content-center pt_35">
-            <a href="#">
+            <Link to="/">
               <img
                 src={footerlogo}
                 alt="footer page logo"
                 className="w-100 mw_197 h_148"
               />
-            </a>
+            </Link>
+            <a href="#"></a>
           </div>
           <div className="d-flex justify-content-center">
             <p className="ff_montserrat fw_400 fs_md clr_white m-0 pt-4 mw_600 text-center">
