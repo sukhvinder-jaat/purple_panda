@@ -10,11 +10,25 @@ const OurRange = () => {
         <div className="container_1140 pt-5">
           <Row className="pt-3">
             <Col lg={12} className="position-relative">
-              <div className="our_range_box position-relative z-1 card_hover overflow-hidden">
-                <p className="ff_Philosopher fw_700 fs_3xl text-center clr_white m-0 lh_normal">
+              <div
+                className="our_range_box position-relative z-1 card_hover overflow-hidden"
+                data-aos="fade-left"
+                data-aos-duration="3000"
+              >
+                <p
+                  className="ff_Philosopher fw_700 fs_3xl text-center clr_white m-0 lh_normal"
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                  data-aos-delay="300"
+                >
                   Our <span className="color_purple">Range</span>
                 </p>
-                <div className="d-flex justify-content-center pt-5">
+                <div
+                  className="d-flex justify-content-center pt-5"
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                  data-aos-delay="600"
+                >
                   <p className="text-center mw_703 m-0 clr_white ff_Montserrat fw_400 fs_md lh_normal">
                     We have a variety of different recreational and medicinal
                     items in our range, including cannabis, vapes, edibles,
@@ -22,7 +36,12 @@ const OurRange = () => {
                     unwind, have fun, and even do some valuable soul searching.
                   </p>
                 </div>
-                <div className="d-flex justify-content-center pt-4">
+                <div
+                  className="d-flex justify-content-center pt-4"
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
+                  data-aos-delay="900"
+                >
                   <p className="text-center mw_703 m-0 clr_white ff_Montserrat fw_400 fs_md lh_normal">
                     Whether you’re looking to order edibles online or browse for
                     your new favorite strain, Purple Panda has got you covered.

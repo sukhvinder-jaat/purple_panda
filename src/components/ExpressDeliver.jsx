@@ -9,7 +9,12 @@ const ExpressDeliver = () => {
         <div className="container_1140  ">
           <Row className="justify-content-between align-items-center">
             <Col lg={7}>
-              <div className="position_absolute animation_express_img top_0 left_14">
+              <div
+                className="position_absolute animation_express_img top_0 left_14"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+                data-aos-delay="300"
+              >
                 <img
                   src={expressdeliveryimg}
                   alt="express delivery section col image"
@@ -18,14 +23,29 @@ const ExpressDeliver = () => {
               </div>
               <div className="w-100 h_563 d-none d-lg-block"></div>
             </Col>
-            <Col lg={5} className=" position-relative z-3">
-              <div className="express_delivery_box position-relative line card_hover overflow-hidden">
+            <Col lg={5}>
+              <div
+                className="express_delivery_box position-relative line card_hover overflow-hidden"
+                data-aos="fade-left"
+                data-aos-duration="3000"
+                data-aos-delay="300"
+              >
                 <div className="express_text_box">
-                  <p className="ff_Philosopher fs_3xl fw_700 clr_white m-0 lh_normal pb-1">
+                  <p
+                    className="ff_Philosopher fs_3xl fw_700 clr_white m-0 lh_normal pb-1"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="600"
+                  >
                     <span className="color_purple">Express</span> Cannabis
                     Delivery
                   </p>
-                  <p className="ff_Montserrat fw_400 fs_md clr_white m-0 pt-2">
+                  <p
+                    className="ff_Montserrat fw_400 fs_md clr_white m-0 pt-2"
+                    data-aos="fade-left"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
                     One of the ways that we set ourselves apart from your
                     average dispensary is through our express delivery service.
                     We’ve all been there – work has finished early and you’ve

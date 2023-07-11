@@ -59,7 +59,12 @@ const Canada = () => {
         >
           {/* box_1 */}
           <SplideSlide className="pt-5 mt-5 p-3">
-            <div className="h-100 back_shadow canada_border ">
+            <div
+              className="h-100 back_shadow canada_border"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <div className="position-relative d-flex justify-content-center ">
                 <span className="position-relative">
                   <img
@@ -95,7 +100,12 @@ const Canada = () => {
             </div>
           </SplideSlide>
           <SplideSlide className="pt-5 mt-5 p-3">
-            <div className="h-100 back_shadow canada_border">
+            <div
+              className="h-100 back_shadow canada_border"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="600"
+            >
               <div className="position-relative d-flex justify-content-center">
                 <span className="position-relative">
                   <img
@@ -132,7 +142,12 @@ const Canada = () => {
             </div>
           </SplideSlide>
           <SplideSlide className="pt-5 mt-5 p-3">
-            <div className="h-100 back_shadow canada_border">
+            <div
+              className="h-100 back_shadow canada_border"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="900"
+            >
               <div className="position-relative d-flex justify-content-center">
                 <span className="position-relative">
                   <img

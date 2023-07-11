@@ -8,16 +8,27 @@ export const MostPopular = () => {
   return (
     <div className="bg_mostpopular">
       <Container className="container_1140 py-lg-5 pt-sm-5 pt-3 pb-4">
-        <p className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 lh_normal">
+        <p
+          className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 lh_normal"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
           Most <span className="color_purple">Popular</span> Items
         </p>
-        <p className="text-white ff_Montserrat text-center fs_md fw_400 pt_14 mb-0">
+        <p
+          className="text-white ff_Montserrat text-center fs_md fw_400 pt_14 mb-0"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
           <span className="d-block">
             Pellentesque tincidunt fermentum mauris dignissim quam
           </span>
           arcu. A netus natoque urna vivamus faucibus. Sollicitudin et nisl.
         </p>
-        <Splide className="pt-5"
+        <Splide
+          className="pt-5"
           options={{
             perPage: 4,
             dots: "true",
@@ -44,7 +55,12 @@ export const MostPopular = () => {
         >
           {/* box_1 */}
           <SplideSlide className="d-flex justify-content-center">
-            <div className="h-100 most_box px-1 pt-1 pb-4">
+            <div
+              className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+            >
               <span>
                 <img src={most_1} alt="most_1" className="w-100" />
               </span>
@@ -63,7 +79,12 @@ export const MostPopular = () => {
           </SplideSlide>
           {/* box_2 */}
           <SplideSlide className="d-flex justify-content-center">
-            <div className="h-100 most_box px-1 pt-1 pb-4">
+            <div
+              className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="600"
+            >
               <span>
                 <img src={most_2} alt="most_1" className="w-100" />
               </span>
@@ -82,7 +103,12 @@ export const MostPopular = () => {
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className="d-flex justify-content-center">
-            <div className="h-100 most_box px-1 pt-1 pb-4">
+            <div
+              className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="900"
+            >
               <span>
                 <img src={most_3} alt="most_1" className="w-100" />
               </span>
@@ -101,7 +127,12 @@ export const MostPopular = () => {
           </SplideSlide>
           {/* box_3 */}
           <SplideSlide className="d-flex justify-content-center">
-            <div className="h-100 most_box px-1 pt-1 pb-4">
+            <div
+              className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="1200"
+            >
               <span>
                 <img src={most_3} alt="most_1" className="w-100" />
               </span>
