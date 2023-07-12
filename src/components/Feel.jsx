@@ -101,6 +101,7 @@ const Feel = () => {
                 >
                   <Col sm={6}>
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
                       placeholder="First name"
                       onChange={userInput}
@@ -111,6 +112,7 @@ const Feel = () => {
                   </Col>
                   <Col sm={6}>
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 mt-sm-0"
                       type="text"
                       id="name"
@@ -122,6 +124,7 @@ const Feel = () => {
                   </Col>
                   <Col sm={6} className="pt-3">
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
                       type="email"
                       id="email"
@@ -133,6 +136,7 @@ const Feel = () => {
                   </Col>
                   <Col sm={6} className="pt-3">
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
                       type="number"
                       id="phone"
