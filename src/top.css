@@ -6,20 +6,22 @@
 }
 
 .bg_mostpopular {
-  background-image: url(../src/assets/img/webp/mostPopularBg.webp);
-  background-size: cover;
+  background-image: url(../src/assets/img/png/download.png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .latest_bg {
-  background-image: url(../src/assets/img/svg/latest_bg.svg);
-  background-size: cover;
+  background-image: url(../src/assets/img/png/blog_sec_bg_img.png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .first_bg {
-  background-image: url(../src/assets/img/webp/first_bg.webp);
-  background-size: cover;
+  background-image: url(../src/assets/img/png/panda_bg.png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-left: -20px;
   margin-right: -20px;
@@ -144,8 +146,10 @@
 }
 
 .splide__pagination__page.is-active {
-  background: var(--linear,
-      linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%)) !important;
+  background: var(
+    --linear,
+    linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%)
+  ) !important;
   cursor: pointer;
   opacity: 0.9;
 }
@@ -229,7 +233,9 @@
     top: 0;
     z-index: 20;
   }
-
+  .first_bg {
+    background-size: 100% 100%;
+  }
   .nav_show.showw {
     opacity: 10;
     min-height: 100vh;
@@ -251,6 +257,15 @@
     top: -40px;
     max-width: 200px;
     background-size: 100% 100%;
+  }
+  .bg_mostpopular {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .latest_bg {
+    background-size: cover;
+    background-position: center;
   }
 }
 

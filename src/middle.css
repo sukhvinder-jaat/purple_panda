@@ -23,6 +23,7 @@
     height: 210px;
     background-color: var(--color-clr_purple);
     filter: blur(134px) !important;
+    z-index: 1;
 }
 
 .us_img_hover_1:hover p {
@@ -45,12 +46,10 @@
 }
 
 .about_back {
-    background: linear-gradient(180deg, #07031D 0%, rgba(7, 3, 29, 0.17) 52.08%, #07031D 100%), radial-gradient(71.76% 38.00% at 77.08% 57.34%, rgba(50, 0, 81, 0.00) 0%, rgba(51, 0, 83, 0.83) 90.95%), linear-gradient(0deg, #22002D 0%, #22002D 100%), lightgray -2.255px -82.369px / 122.354% 154.154% no-repeat;
-    background-blend-mode: normal, normal, hue, normal;
-    background-image: url(../src/assets/img/webp/about_back.webp);
+    background-image: url(../src/assets/img/png/about-us-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: 50%;
+    background-size: 100% 100%;
 }
 
 .back_card {
@@ -162,12 +161,12 @@
 
 .canada_bg {
     background-image: url(../src/assets/img/webp/canada_bg.webp);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .canada_gradient {
-    background: linear-gradient(180deg, #07031D 10%, rgba(7, 3, 29, 0.53) 50%);
+    background: linear-gradient(180deg, #07031D 10%, rgba(7, 3, 29, 0.53) 20%);
     width: 100%;
     height: 100%;
     top: 0%;
@@ -357,6 +356,10 @@
         grid-column: 2/3;
         grid-row: 5/8;
     }
+    .about_back {
+    background-position: center;
+    background-size:cover;
+}
 }
 
 @media (max-width:319px) {
