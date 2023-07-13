@@ -5,7 +5,7 @@ const Preloader = () => {
       setTimeout(() => {
         document.querySelector(".none").style.display = "none";
         document.body.classList.remove("overflow_hidden");
-      }, 2500);
+      }, 4000);
   return (
     <>
       <section className="bg-black">

@@ -24,7 +24,7 @@ const OurRange = () => {
                   Our <span className="color_purple">Range</span>
                 </p>
                 <div
-                  className="d-flex justify-content-center pt-5"
+                  className="d-flex justify-content-center pt-lg-5 pt-3"
                   data-aos="fade-down"
                   data-aos-duration="3000"
                   data-aos-delay="600"
@@ -37,7 +37,7 @@ const OurRange = () => {
                   </p>
                 </div>
                 <div
-                  className="d-flex justify-content-center pt-4"
+                  className="d-flex justify-content-center pt-sm-4 pt-2"
                   data-aos="fade-down"
                   data-aos-duration="3000"
                   data-aos-delay="900"

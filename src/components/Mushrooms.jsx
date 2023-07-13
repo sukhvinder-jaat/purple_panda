@@ -65,7 +65,7 @@ export const Mushrooms = () => {
                 autoplay: true,
                 autoScroll: {
                   drag: "free",
-                  speed: 0.1,
+                  speed: 1,
                   pauseOnHover: false,
                 },
               },

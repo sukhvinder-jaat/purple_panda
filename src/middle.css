@@ -18,6 +18,7 @@
 }
 
 .all_shadow {
+    cursor: none !important;
     position: absolute;
     width: 210px;
     height: 210px;

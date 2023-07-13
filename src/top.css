@@ -43,7 +43,7 @@
 }
 
 .all_btn_hover:hover {
-  box-shadow: 0px 1px 41px 7px var(--color-clr_pink);
+  box-shadow: 0px 1px 20px 0px var(--color-clr_pink);
 }
 
 .z_10 {
