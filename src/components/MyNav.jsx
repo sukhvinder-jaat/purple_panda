@@ -95,7 +95,7 @@ const MyNav = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="#most_popular"
                             className="mr_37_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
@@ -104,7 +104,7 @@ const MyNav = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="#about_section"
                             className="mr_37_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >
@@ -122,7 +122,7 @@ const MyNav = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="#footer_section"
                             className="mr_21_xl ff_Montserrat clr_white fw_400 fs_md hover_bold hover_line position-relative"
                             onClick={clickshow}
                           >

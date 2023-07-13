@@ -8,7 +8,10 @@ export const MostPopular = () => {
   return (
     <div className="bg_mostpopular position-relative">
       <div className="circle_shadow most_shadow express_cir_ani"></div>
-      <Container className="container_1140 py-lg-5 pt-sm-5 pt-3 pb-4">
+      <Container
+        className="container_1140 py-lg-5 pt-sm-5 pt-3 pb-4"
+        id="most_popular"
+      >
         <p
           className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 lh_normal"
           data-aos="fade-left"

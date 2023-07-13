@@ -9,7 +9,7 @@ import about_5 from "../assets/img/webp/about_5.webp";
 
 const About = () => {
   return (
-    <section className="about_back py-sm-5 pt-5 mt-lg-5">
+    <section className="about_back py-sm-5 pt-5 mt-lg-5" id="about_section">
       <div className="container_1140">
         <Row className="align-items-center">
           <Col xl={7}>

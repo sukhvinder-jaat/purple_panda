@@ -16,7 +16,7 @@ const MyFooter = () => {
   });
   return (
     <>
-      <section className="bg_footer position-relative">
+      <section className="bg_footer position-relative" id="footer_section">
         <div className="container_1140">
           <div className="d-flex justify-content-center pt_35">
             <Link to="/" onClick={moveToTop}>
@@ -53,7 +53,10 @@ const MyFooter = () => {
               >
                 SHOP
               </a>
-              <a href="#" className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line pointer position-relative mb-0 ">
+              <a
+                href="#"
+                className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line pointer position-relative mb-0 "
+              >
                 ABOUT
               </a>
               <Link
@@ -67,9 +70,7 @@ const MyFooter = () => {
           </div>
         </div>
         <div className="footer_line"></div>
-        <div
-          className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0"
-        >
+        <div className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0">
           <svg
             width="9"
             height="9"
