@@ -121,11 +121,7 @@
 .max_w_980 {
   max-width: 980px;
 }
-.splide__track{
-    padding-top: 24px;
-    padding-bottom: 24px;
-  box-shadow: 0px -1px 15px 0 var(--color-clr_dark_blur);
-}
+
 .max_w_980 {
   max-width: 980px;
 }
