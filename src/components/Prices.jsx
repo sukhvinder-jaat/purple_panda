@@ -9,7 +9,7 @@ const Prices = () => {
       <section className="py-lg-5 position-relative">
         <div className="container_1140 py-5">
           <div
-            className="prices_box back_shadow"
+            className="prices_box pirices_hover transisation back_shadow"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
