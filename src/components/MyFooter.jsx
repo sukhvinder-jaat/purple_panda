@@ -48,13 +48,13 @@ const MyFooter = () => {
           >
             <div className="d-flex justify-content-center align-items-center">
               <a
-                href="#"
+                href="#most_popular"
                 className="me-3 clr_white ff_Montserrat fw_600 hover_line position-relative fs_md mb-0 "
               >
                 SHOP
               </a>
               <a
-                href="#"
+                href="#about_section"
                 className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line pointer position-relative mb-0 "
               >
                 ABOUT
