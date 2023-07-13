@@ -15,12 +15,12 @@
   transition: all 0.5s ease-in-out !important;
 }
 .all_shadow {
-  position: absolute;
-  width: 210px;
-  height: 210px;
-  background-color: var(--color-clr_purple);
-  filter: blur(134px) !important;
-  z-index: 1;
+    cursor: none !important;
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-color: var(--color-clr_purple);
+    filter: blur(134px) !important;
 }
 .us_img_hover_1:hover p {
   color: var(--color-clr_purple) !important;

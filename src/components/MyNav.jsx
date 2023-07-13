@@ -53,7 +53,7 @@ const MyNav = () => {
               <input
                 type="text"
                 placeholder="Search here.."
-                className="bg_black21 border-0 text-white ff_Montserrat fw_400 fs_xsm"
+                className="bg_black21 lh_normal border-0 text-white ff_Montserrat fw_400 fs_xsm"
               />
               <span>
                 <img src={search} alt="search" className="pointer" />
@@ -136,7 +136,7 @@ const MyNav = () => {
                               <input
                                 type="text"
                                 placeholder="Search here.."
-                                className="bg_black21 border-0 text-white ff_Montserrat fw_400 fs_xsm"
+                                className="bg_black21 lh_normal border-0 text-white ff_Montserrat fw_400 fs_xsm"
                               />
                               <span>
                                 <img

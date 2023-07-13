@@ -278,11 +278,9 @@
 }
 @keyframes expresscircle {
   0% {
-    filter: blur(0);
     transform: scale(1);
   }
   100% {
-    filter: blur(2px);
     transform: scale(1.5);
   }
 }
@@ -341,6 +339,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .our_range_box{
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 @media (min-width: 992px) {

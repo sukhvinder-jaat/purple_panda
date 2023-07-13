@@ -8,8 +8,8 @@ import cannabis_5 from "../assets/img/webp/cannabis_5.webp";
 const Cannabis = () => {
   return (
     <section className="about_back py-xl-5 pb-5">
-      <div className="container_1140">
-        <div className="text-center d-flex flex-column align-items-center">
+      <div className="container_1140 pt-lg-0 pt-3">
+        <div className=" text-center d-flex flex-column align-items-center">
           <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0 lh_normal">
             Cannabis
           </p>
@@ -46,7 +46,7 @@ const Cannabis = () => {
                 each of which has its own qualities.
               </p>
               <span
-                className="d-flex align-items-start pt-5"
+                className=" d-flex align-items-start pt-lg-5 pt-sm-4 pt-2"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="600"
@@ -58,7 +58,7 @@ const Cannabis = () => {
                 </p>
               </span>
               <span
-                className="d-flex align-items-start pt-4"
+                className=" d-flex align-items-start pt-sm-4 pt-2"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="900"
@@ -70,7 +70,7 @@ const Cannabis = () => {
                 </p>
               </span>
               <span
-                className="d-flex align-items-start pt-4"
+                className=" d-flex align-items-start pt-sm-4 pt-2"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="1200"
@@ -84,7 +84,7 @@ const Cannabis = () => {
               </span>
             </div>
           </Col>
-          <Col xl={5}>
+          <Col xl={5} className=" pt-xl-0 pt-4 ">
             <div
               className="d-grid grid_gap"
               data-aos="fade-left"

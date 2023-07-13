@@ -49,7 +49,7 @@ export const Classifications = () => {
                 </p>
               </div>
               <div
-                className="pt-4"
+                className="pt-lg-4 pt-2"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-delay="900"
@@ -68,7 +68,7 @@ export const Classifications = () => {
                 </p>
               </div>
               <div
-                className="pt-4"
+                className="pt-lg-4 pt-2"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-delay="1200"
@@ -87,7 +87,7 @@ export const Classifications = () => {
                 </p>
               </div>
               <div
-                className="pt-4"
+                className="pt-lg-4 pt-2"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-delay="1500"
@@ -102,7 +102,7 @@ export const Classifications = () => {
                 <p className="fw_600 fs_xl ff_Montserrat clr_white mb-0">
                   5- Star
                 </p>
-                <p className="fw_400 fs_md ff_Montserrat clr_white pb-5">
+                <p className="fw_400 fs_md ff_Montserrat clr_white pb-lg-5 pb-3">
                   Top-shelf buds for those special occasions.
                 </p>
               </div>

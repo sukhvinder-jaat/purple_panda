@@ -22,7 +22,7 @@ const Prices = () => {
                   data-aos-delay="300"
                 >
                   High<span className="color_purple"> Thoughts</span>, Low
-                  <span className="color_purple">Prices</span>
+                  <span className="color_purple"> Prices</span>
                 </p>
                 <p
                   className="ff_Montserrat fw_400 fs_md clr_white pt-2 pb-5 mb-lg-2 mb-0"
@@ -49,14 +49,14 @@ const Prices = () => {
                   <img
                     src={mushroom}
                     alt="prices section mushroom image"
-                    className="w-100 mw_412 h_445"
+                    className="w-100 mw_412 h_445 position-relative z-3"
                   />
                 </div>
                 <div className="h_278 w-100 d-lg-block d-none"></div>
-                <span className="position-absolute top_80 right_130 express_cir_ani">
+                <span className="position-absolute pe-none top_80 right_130 express_cir_ani">
                   <div className="shadow_circle_prices"></div>
                 </span>
-                <span className="position-absolute left_-300 top_-200 express_cir_ani">
+                <span className="position-absolute pe-none left_-300 top_-200 express_cir_ani">
                   <div className="circle_shadow"></div>
                 </span>
               </Col>

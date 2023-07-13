@@ -19,7 +19,7 @@ const About = () => {
               data-aos-duration="1000"
             >
               <p
-                className="fw_400 fs_3xl ff_Philosopher clr_white mb-0 lh_normal"
+                className="fw_400 fs_3xl ff_Philosopher clr_white mb-0 lh_normal pb-lg-0 pb-3"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="300"
@@ -63,7 +63,7 @@ const About = () => {
               </div>
             </div>
           </Col>
-          <Col xl={5}>
+          <Col xl={5} className="pt-xl-0 pt-4">
             <div
               className="d-grid grid_gap"
               data-aos="fade-left"
