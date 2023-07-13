@@ -9,7 +9,7 @@ const Cannabis = () => {
   return (
     <section className="about_back py-xl-5 pb-5">
       <div className="container_1140">
-        <div className=" text-center d-flex flex-column align-items-center">
+        <div className="text-center d-flex flex-column align-items-center">
           <p className="fw_700 fs_3xl ff_Philosopher clr_white mb-0 lh_normal">
             Cannabis
           </p>
@@ -46,7 +46,7 @@ const Cannabis = () => {
                 each of which has its own qualities.
               </p>
               <span
-                className=" d-flex align-items-start pt-5"
+                className="d-flex align-items-start pt-5"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="600"
@@ -58,7 +58,7 @@ const Cannabis = () => {
                 </p>
               </span>
               <span
-                className=" d-flex align-items-start pt-4"
+                className="d-flex align-items-start pt-4"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="900"
@@ -70,7 +70,7 @@ const Cannabis = () => {
                 </p>
               </span>
               <span
-                className=" d-flex align-items-start pt-4"
+                className="d-flex align-items-start pt-4"
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="1200"

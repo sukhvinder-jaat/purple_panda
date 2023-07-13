@@ -7,7 +7,7 @@ const Contact = () => {
       <MyNav />
       <div className="container_1140 pb-5">
         <div
-          className=" text-center pt-5"
+          className="text-center pt-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="300"

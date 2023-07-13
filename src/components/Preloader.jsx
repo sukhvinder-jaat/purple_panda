@@ -1,11 +1,11 @@
-import React from 'react'
-import purplepanda from "../assets/img/webp/hero_panda.webp"
+import React from "react";
+import purplepanda from "../assets/img/webp/hero_panda.webp";
 
 const Preloader = () => {
-      setTimeout(() => {
-        document.querySelector(".none").style.display = "none";
-        document.body.classList.remove("overflow_hidden");
-      }, 2500);
+  setTimeout(() => {
+    document.querySelector(".none").style.display = "none";
+    document.body.classList.remove("overflow_hidden");
+  }, 2500);
   return (
     <>
       <section className="bg-black">
@@ -18,7 +18,7 @@ const Preloader = () => {
             />
             <div className="animation_preloader d-flex justify-content-center">
               <p className="ff_Philosopher fw_700 fs_4xl fs_48xl  clr_white mb-0 lh_normal">
-                Purple <span className='color_purple'>Panda</span>
+                Purple <span className="color_purple">Panda</span>
               </p>
             </div>
             <div className="w-50 border_preloader rounded-pill overflow-hidden mt-4">
@@ -29,6 +29,6 @@ const Preloader = () => {
       </section>
     </>
   );
-}
+};
 
 export default Preloader;

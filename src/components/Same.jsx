@@ -25,7 +25,7 @@ const Same = () => {
             />
           </Col>
           <Col lg={7}>
-            <Row className=" position-relative z-3">
+            <Row className="position-relative z-3">
               <Col sm={6}>
                 <div className="d-flex align-items-center input_hover pointer">
                   <img src={same_2} alt="same_2" />
