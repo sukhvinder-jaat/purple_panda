@@ -1,4 +1,4 @@
-/*================================================================================== boxes ==================================================================== */
+/*======================== boxes ======================================== */
 .our_range_box {
   border-radius: 10px;
   border: 1px solid var(--color-clr_dark_blur);
@@ -8,26 +8,22 @@
   padding-right: 12px;
   padding-left: 12px;
 }
-
 .express_delivery_box {
   border-radius: 10px;
   backdrop-filter: blur(9px);
   padding-top: 29px;
   padding-bottom: 29px;
 }
-
 .express_text_box {
   padding-left: 34px;
   padding-right: 34px;
 }
-
 .prices_box {
   border-radius: 10px;
   backdrop-filter: blur(9px) !important;
   padding: 59px 43px;
 }
-
-/*=============================================================================== container =================================================================== */
+/*============================ container ========================== */
 .store_container {
   max-width: 596px !important;
   margin-left: auto;
@@ -35,15 +31,13 @@
   padding-left: 12px;
   padding-right: 12px;
 }
-
-/*================================================================================ backgrounds ===================================================================== */
+/*================================= backgrounds ============================ */
 .bg_footer {
   background-image: url("../src/assets/img/webp/footer-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
 /* line  */
 .footer_line {
   opacity: 0.30000001192092896;
@@ -52,227 +46,178 @@
   height: 2px;
   margin-top: 55px;
 }
-
 .bg_potent {
   background-image: url("../src/assets/img/webp/potent-bg.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
 }
-
-/*=============================================================================== preloader =================================================================== */
+/*============================= preloader ===================================== */
 .overflow_hidden {
   overflow: hidden;
 }
-
 .z_1111111 {
   z-index: 1111111;
 }
-
 .animation_preloader_2 {
   animation: preloader 2.5s linear alternate;
   position: relative;
 }
-
 @keyframes preloader {
   0% {
     left: -100%;
   }
-
   100% {
     left: 100%;
   }
 }
-
 .border_preloader {
   border: 2px solid var(--color-clr_white) !important;
 }
-
 .bg_gradient {
-  background: var(--linear,
-      linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%)) !important;
+  background: var(
+    --linear,
+    linear-gradient(132deg, #aa1ffe 0%, #dd22e6 100%)
+  ) !important;
 }
-
 .animation_preloader {
   animation: preloaderani 2.5s linear infinite;
 }
-
 @keyframes preloaderani {
   0% {
     transform: scale(0.5);
     opacity: 0;
   }
-
   100% {
     opacity: 1;
     transform: scale(0.8);
   }
 }
-
 .animation_preloader_2 {
   animation: preloader 2.5s linear alternate;
   position: relative;
 }
-
 .h_30 {
   height: 30px;
 }
-
 .w_60 {
   width: 60px;
 }
-
-/*================================================================================== max width  ==============================================================================*/
+/*================================= max width  =========================================*/
 .mw_703 {
   max-width: 703px;
 }
-
 .mw_197 {
   max-width: 197px;
 }
-
 .mw_177 {
   max-width: 177px !important;
 }
-
 .min_w_307 {
   min-width: 307px;
 }
-
 .mw_600 {
   max-width: 600px;
 }
-
 .mw_272 {
   max-width: 272px;
 }
-
 .mw_543 {
   max-width: 543px;
 }
-
 .mw_153 {
   max-width: 153px;
 }
-
-/*===================================================================================== height ============================================================================ */
+/*========================== height ======================================== */
 .h_291 {
   height: 291px;
 }
-
 .h_148 {
   height: 148px;
 }
-
 .h_278 {
   height: 278px;
 }
-
 .h_473 {
   height: 473px;
 }
-
 .h_153 {
   height: 153px;
 }
-
-/*==================================================================================== line height ======================================================================= */
+/*===================== line height =========================== */
 .lh_normal {
   line-height: normal;
 }
-
-/*=================================================================================== left top bottom right =============================================================== */
+/*========================== left top bottom right ======================= */
 .bottom_0 {
   bottom: 0;
 }
-
 .left_20 {
   left: 20px;
 }
-
 .right_30 {
   right: 30px;
 }
-
 .left_0 {
   left: 0;
 }
-
 .left_45 {
   left: 44.5%;
 }
-
 .top_0 {
   top: 0;
 }
-
 .left_14 {
   left: 14%;
 }
-
 .top_-200 {
   top: -200px;
 }
-
 .left_-300 {
   left: -300px;
 }
-
 .top_-35 {
   top: -35px;
 }
-
 .top_80 {
   top: 80px;
 }
-
 .right_-105 {
   right: -105px;
 }
-
 .top_-50 {
   top: -50px;
 }
-
 .top_-50 {
   top: -50px;
 }
-
 .right_130 {
   right: 130px;
 }
-
-/*================================================================================ padding ===================================================================== */
+/*==================== padding ================================= */
 .pt_35 {
   padding-top: 35px;
 }
-
 .pt_14 {
   padding-top: 14px;
 }
-
 .pb_30 {
   padding-bottom: 30px;
 }
-
 .pb_17 {
   padding-bottom: 17px;
 }
-
 .pt_67 {
   padding-top: 67px;
 }
-
 .pt_0 {
   padding-top: 0;
 }
-
-/*=============================================================================== margin ===================================================================== */
+/*===================== margin ================================ */
 .mt_43 {
   margin-top: 43px;
 }
-
-/*============================================================================== before after ==============================================================*/
+/*================================== before after ===========================*/
 .line:after {
   content: "";
   position: absolute;
@@ -281,7 +226,6 @@
   height: 95%;
   border: 2px solid var(--color-clr_purple) !important;
 }
-
 .bottom_line:before {
   content: "";
   position: absolute;
@@ -291,7 +235,6 @@
   width: 272px !important;
   background: rgba(221, 34, 230, 0.59);
 }
-
 .gif_after::after {
   content: "";
   position: absolute;
@@ -305,93 +248,76 @@
   height: 133px;
   z-index: 11;
 }
-
-/*================================================================================ animations ======================================================================== */
+/*===================== animations =================================== */
 .animation_stem {
   animation: stem 3s linear infinite alternate;
 }
-
 @keyframes stem {
   0% {
     filter: brightness(0px);
     transform: scale(0.5);
   }
-
   100% {
     filter: brightness(-50px);
     transform: scale(1);
   }
 }
-
 .animation_express_img {
   animation: expressimg 2s linear infinite alternate;
 }
-
 @keyframes expressimg {
   0% {
     filter: blur(0);
   }
-
   100% {
     filter: blur(2px);
   }
 }
-
 .express_cir_ani {
   animation: expresscircle 2s linear infinite alternate;
 }
-
 @keyframes expresscircle {
   0% {
     transform: scale(1);
   }
-
   100% {
     transform: scale(1.5);
   }
 }
-
-/*==================================================================================== transisation  =====================================================================*/
+/*====================== transisation  ===============================*/
 .transisation {
   transition: all 0.2s linear !important;
 }
-
-/*========================================================================== transform translate========================================================================= */
+/*======================== transform translate================================= */
 .trans_-70y {
   transform: translateY(-70px);
 }
-
 .trans_-300y_x_191 {
   transform: translateY(-300px) translateX(191px);
 }
-
-/*==================================================================================== shadow circles ==================================================================== */
+/*=============================== shadow circles =============================== */
 .circle_shadow {
   background-color: var(--color-clr_purplr_l) !important;
   filter: blur(134.5px);
   width: 210px;
   height: 210px;
 }
-
 .shadow_circle_prices {
   width: 250px;
   height: 250px;
   background-color: var(--color-clr_purplr_l) !important;
   filter: blur(134.5px);
 }
-
-/*==================================================================================== media screen ====================================================================== */
+/*================================ media screen ============================= */
 @media (min-width: 1200px) and (max-width: 1920px) {
   .vh_100_custom {
     min-height: 100vh;
   }
 }
-
 @media (max-width: 1400px) {
   .left_14 {
     left: 1%;
   }
-
   .bg_potent {
     background-image: url("../src/assets/img/webp/potent-bg.webp");
     background-repeat: no-repeat;
@@ -399,17 +325,14 @@
     background-position: center;
   }
 }
-
 @media (max-width: 1200px) {
   .pt_xl_0 {
     padding-top: 0 !important;
   }
-
   .mt_xl_0 {
     margin-top: 0 !important;
   }
 }
-
 @media (max-width: 992px) {
   .bg_footer {
     background-image: url("../src/assets/img/webp/footer-bg.webp");
@@ -422,36 +345,29 @@
     padding-bottom: 40px;
   }
 }
-
 @media (min-width: 992px) {
   .position_absolute {
     position: absolute;
   }
-
   .mw_900 {
     max-width: 900px;
   }
-
   .h_563 {
     height: 563px;
   }
 }
-
 @media (max-width: 768px) {
   .fs_48xl {
     font-size: var(--fs-3xl) !important;
   }
 }
-
 @media (max-width: 576px) {
   .min_w_320 {
     min-width: 320px;
   }
-
   .h_320 {
     height: 320px;
   }
-
   .gif_after::after {
     content: "";
     position: absolute;
@@ -465,17 +381,14 @@
     height: 80px;
     z-index: 11;
   }
-
   .pt_sm_35 {
     padding-top: 35px;
   }
 }
-
 @media (min-width: 576px) {
   .h_445 {
     height: 445px;
   }
-
   .mw_412 {
     max-width: 412px;
   }

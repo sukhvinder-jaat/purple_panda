@@ -67,7 +67,7 @@ const MyNav = () => {
             </h2>
           </div>
           {/* nav */}
-          <div className={`nav_show ${First ? " " : "ps-0 showw"}`}>
+          <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
             <div className="py-4 vh_100_1200 position-relative">
               <div>
                 <div className="nav_container">
@@ -174,7 +174,7 @@ const MyNav = () => {
                             className="w-100 pointer"
                           />
                         </span>
-                        <div className="ms-xl-3 ">
+                        <div className="ms-xl-3">
                           <Button textbtn="SIGN IN" />
                         </div>
                       </div>

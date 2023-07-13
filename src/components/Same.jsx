@@ -21,18 +21,18 @@ const Same = () => {
               src={same_img}
               alt="same_img"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             />
           </Col>
           <Col lg={7}>
-            <Row className=" position-relative z-3">
+            <Row className="position-relative z-3">
               <Col sm={6}>
                 <div className="d-flex align-items-center input_hover pointer">
                   <img src={same_2} alt="same_2" />
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="300"
                   >
                     Same Day Delivery
@@ -45,7 +45,7 @@ const Same = () => {
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="1500"
                   >
                     Canada Wide Mail Orders
@@ -58,7 +58,7 @@ const Same = () => {
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="600"
                   >
                     Discreet packaging
@@ -71,7 +71,7 @@ const Same = () => {
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="1800"
                   >
                     19+
@@ -84,7 +84,7 @@ const Same = () => {
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="900"
                   >
                     Premium Marijuana Buds
@@ -97,7 +97,7 @@ const Same = () => {
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="2100"
                   >
                     Secure Transactions
@@ -110,7 +110,7 @@ const Same = () => {
                   <p
                     className="fw_600 fs_md ff_Montserrat clr_white ps-2 mb-0"
                     data-aos="fade-right"
-                    data-aos-duration="3000"
+                    data-aos-duration="1000"
                     data-aos-delay="1200"
                   >
                     Collect Rewards

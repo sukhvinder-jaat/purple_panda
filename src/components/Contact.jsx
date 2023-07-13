@@ -7,9 +7,9 @@ const Contact = () => {
       <MyNav />
       <div className="container_1140 pb-5">
         <div
-          className=" text-center pt-5"
+          className="text-center pt-5"
           data-aos="fade-down"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="300"
         >
           <p className="fw_400 fs_3xl ff_Philosopher clr_white mb-0">Contact</p>

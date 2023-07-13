@@ -12,12 +12,12 @@ export const Classifications = () => {
             <div
               className="back_shadow our_card p-sm-5 p-3 position-relative z-3 card_hover overflow-hidden"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <p
                 className="fw_700 fs_3xl ff_Philosopher clr_white lh_normal"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 Our <span className="color_purple">Classifications</span>
@@ -25,7 +25,7 @@ export const Classifications = () => {
               <p
                 className="fw_400 fs_md ff_Montserrat clr_white"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 We’re proud of all our weed, but we still classify it based on
@@ -34,7 +34,7 @@ export const Classifications = () => {
               <div
                 className="pt-2"
                 data-aos="fade-right"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="600"
               >
                 <span className="d-flex align-items-center">
@@ -51,7 +51,7 @@ export const Classifications = () => {
               <div
                 className="pt-lg-4 pt-2"
                 data-aos="fade-right"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="900"
               >
                 <span className="d-flex align-items-center">
@@ -70,7 +70,7 @@ export const Classifications = () => {
               <div
                 className="pt-lg-4 pt-2"
                 data-aos="fade-right"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="1200"
               >
                 <span className="d-flex align-items-center">
@@ -89,7 +89,7 @@ export const Classifications = () => {
               <div
                 className="pt-lg-4 pt-2"
                 data-aos="fade-right"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="1500"
               >
                 <span className="d-flex align-items-center">

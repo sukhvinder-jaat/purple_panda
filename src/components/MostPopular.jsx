@@ -12,7 +12,7 @@ export const MostPopular = () => {
         <p
           className="text-center text-white ff_Philosopher fw_700 fs_3xl mb-0 lh_normal"
           data-aos="fade-left"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="300"
         >
           Most <span className="color_purple">Popular</span> Items
@@ -20,7 +20,7 @@ export const MostPopular = () => {
         <p
           className="text-white ff_Montserrat text-center fs_md fw_400 pt_14 mb-0"
           data-aos="fade-left"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="300"
         >
           <span className="d-block">
@@ -59,7 +59,7 @@ export const MostPopular = () => {
             <div
               className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -83,7 +83,7 @@ export const MostPopular = () => {
             <div
               className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="600"
             >
               <span>
@@ -107,7 +107,7 @@ export const MostPopular = () => {
             <div
               className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="900"
             >
               <span>
@@ -131,7 +131,7 @@ export const MostPopular = () => {
             <div
               className="h-100 most_box px-1 pt-1 pb-4 card_hover overflow-hidden latest_hover"
               data-aos="fade-down"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="1200"
             >
               <span>

@@ -29,7 +29,7 @@ const Feel = () => {
           <Col
             lg={5}
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos-delay="300"
           >
             <img className="w-100" src={feel} alt="feel" />
@@ -38,13 +38,13 @@ const Feel = () => {
             <div
               className="back_shadow feel_back p-3 p-sm-0 py-sm-5 ps-sm-4 pe-sm-5 card_hover overflow-hidden position-relative"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <p
                 className="fw_700 fs_2xl ff_Philosopher clr_white lh_105"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 Feel free to <span className="color_purple">contact us</span>
@@ -53,7 +53,7 @@ const Feel = () => {
               <p
                 className="fw_400 fs_md ff_Montserrat clr_white"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="600"
               >
                 We usually reply in 24 hours, if there is an urgent need to
@@ -61,7 +61,7 @@ const Feel = () => {
               </p>
               <Row
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="900"
               >
                 <Col sm={4}>
@@ -96,11 +96,12 @@ const Feel = () => {
                 <Row
                   className="pt-sm-5 pt-3"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="1200"
                 >
                   <Col sm={6}>
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
                       placeholder="First name"
                       onChange={userInput}
@@ -111,6 +112,7 @@ const Feel = () => {
                   </Col>
                   <Col sm={6}>
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 mt-sm-0"
                       type="text"
                       id="name"
@@ -122,6 +124,7 @@ const Feel = () => {
                   </Col>
                   <Col sm={6} className="pt-3">
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
                       type="email"
                       id="email"
@@ -133,6 +136,7 @@ const Feel = () => {
                   </Col>
                   <Col sm={6} className="pt-3">
                     <input
+                      required
                       className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100"
                       type="number"
                       id="phone"
@@ -146,7 +150,7 @@ const Feel = () => {
                 <textarea
                   className="back_shadow input_border p-1 ps-4 fw_400 fs_md ff_Montserrat clr_white opacity_04 w-100 mt-3 h_100"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="1500"
                   cols="30"
                   rows="10"
@@ -155,7 +159,7 @@ const Feel = () => {
                 <div
                   className="mt-4"
                   data-aos="fade-down"
-                  data-aos-duration="3000"
+                  data-aos-duration="1000"
                   data-aos-delay="1800"
                 >
                   <Button textbtn="SUBMIT" />

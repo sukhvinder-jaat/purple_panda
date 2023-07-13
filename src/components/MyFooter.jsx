@@ -31,7 +31,7 @@ const MyFooter = () => {
           <div
             className="d-flex justify-content-center"
             data-aos="fade-down"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos-delay="300"
           >
             <p className="ff_Montserrat fw_400 fs_md clr_white m-0 pt-4 mw_600 text-center">
@@ -43,7 +43,7 @@ const MyFooter = () => {
           <div
             className="d-flex justify-content-center pt-4"
             data-aos="fade-down"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
             data-aos-delay="900"
           >
             <div className="d-flex justify-content-center align-items-center">
@@ -53,7 +53,7 @@ const MyFooter = () => {
               >
                 SHOP
               </a>
-              <a className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 ">
+              <a href="#" className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line pointer position-relative mb-0 ">
                 ABOUT
               </a>
               <Link
@@ -69,9 +69,6 @@ const MyFooter = () => {
         <div className="footer_line"></div>
         <div
           className="d-flex align-items-center justify-content-center pt_14 pb_30 m-0"
-          data-aos="fade-down"
-          data-aos-duration="3000"
-          data-aos-delay="900"
         >
           <svg
             width="9"

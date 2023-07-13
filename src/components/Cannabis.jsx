@@ -26,12 +26,12 @@ const Cannabis = () => {
             <div
               className="back_shadow back_card ps-md-5 ps-3 py-5 pe-md-4 pe-2 border_about position-relative card_hover overflow-hidden"
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <p
                 className="fw_400 fs_3xl ff_Montserrat clr_white mb-0"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 Strain <span className="color_purple">Families</span>
@@ -39,7 +39,7 @@ const Cannabis = () => {
               <p
                 className="fw_400 fs_md ff_Montserrat clr_white mb-2"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="300"
               >
                 We stock the three main families of cannabis at Purple Panda,
@@ -48,7 +48,7 @@ const Cannabis = () => {
               <span
                 className=" d-flex align-items-start pt-lg-5 pt-sm-4 pt-2"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="600"
               >
                 <p className="fw_600 fs_xl ff_Montserrat clr_white">Indica:</p>
@@ -60,7 +60,7 @@ const Cannabis = () => {
               <span
                 className=" d-flex align-items-start pt-sm-4 pt-2"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="900"
               >
                 <p className="fw_600 fs_xl ff_Montserrat clr_white">Sativa:</p>
@@ -72,7 +72,7 @@ const Cannabis = () => {
               <span
                 className=" d-flex align-items-start pt-sm-4 pt-2"
                 data-aos="fade-down"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
                 data-aos-delay="1200"
               >
                 <p className="fw_600 fs_xl ff_Montserrat clr_white">Hybrid:</p>
@@ -88,7 +88,7 @@ const Cannabis = () => {
             <div
               className="d-grid grid_gap"
               data-aos="fade-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
             >
               <img
                 className="about_1 w-100 us_img_hover"

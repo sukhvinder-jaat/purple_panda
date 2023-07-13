@@ -7,7 +7,7 @@ import first_3 from "../assets/img/webp/first_3.webp";
 export const First = () => {
   return (
     <div className="first_bg py-xl-5">
-      <Container className=" container_1140 py-sm-5 pb-5">
+      <Container className="container_1140 py-sm-5 pb-5">
         <Splide
           options={{
             perPage: 3,
@@ -38,7 +38,7 @@ export const First = () => {
           <SplideSlide className="d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -58,7 +58,7 @@ export const First = () => {
           <SplideSlide className="d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
@@ -78,7 +78,7 @@ export const First = () => {
           <SplideSlide className="d-flex justify-content-center px-2">
             <div
               data-aos="flip-left"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               data-aos-delay="300"
             >
               <span>
