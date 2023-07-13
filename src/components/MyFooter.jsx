@@ -53,7 +53,7 @@ const MyFooter = () => {
               >
                 SHOP
               </a>
-              <a className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line position-relative mb-0 ">
+              <a href="#" className="ms-4 ff_Montserrat fw_600 fs_md clr_white hover_line pointer position-relative mb-0 ">
                 ABOUT
               </a>
               <Link

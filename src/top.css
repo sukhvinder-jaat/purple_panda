@@ -41,11 +41,11 @@
 }
 
 .all_btn_hover {
-  transition: 0.4s linear;
+  transition: 0.3s linear;
 }
 
 .all_btn_hover:hover {
-  box-shadow: 0px 1px 41px 7px var(--color-clr_pink);
+     box-shadow: 2px 2px 16px 6px rgba(138,86,138,.69);
 }
 
 .z_10 {
